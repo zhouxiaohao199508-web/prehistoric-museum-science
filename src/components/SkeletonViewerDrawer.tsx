@@ -21,6 +21,9 @@ const SKELETON_SOURCES: Record<string, { title: string; url: string; note: strin
   },
 }
 
+// This helper is intentionally exported alongside the component because animal pages
+// use it to decide whether the skeleton-viewer entry point should be shown.
+// eslint-disable-next-line react-refresh/only-export-components
 export function hasSkeletonViewer(animalId: string) {
   return animalId in SKELETON_SOURCES
 }

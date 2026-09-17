@@ -114,6 +114,8 @@ function SkeletonCanvas({ active }: { readonly active: boolean }) {
       observer.disconnect()
       controls.dispose()
       renderer.dispose()
+      // Three.js Mesh material/geometry runtime types are safe to dispose here.
+      /* eslint-disable @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return */
       scene.traverse((object) => {
         if (object instanceof THREE.Mesh) {
           object.geometry?.dispose()
@@ -121,6 +123,7 @@ function SkeletonCanvas({ active }: { readonly active: boolean }) {
           materials.forEach((material) => material?.dispose())
         }
       })
+      /* eslint-enable @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return */
       if (renderer.domElement.parentElement === host) host.removeChild(renderer.domElement)
     }
   }, [active])

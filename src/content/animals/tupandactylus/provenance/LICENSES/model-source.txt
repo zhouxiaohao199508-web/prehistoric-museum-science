@@ -1,0 +1,16 @@
+Model source and derivation
+
+Title: Tupandactylus
+Author: Paleo Modelist (@victory_)
+Direct source: https://sketchfab.com/3d-models/tupandactylus-4ea8f4466c2c4e61bc57c12af296d43a
+Accessed: 2026-08-01
+Source bytes: 865680
+Source SHA-256: a4f733b83bdfb29a16c77dd140d921108b811a6f8dbe41fcec7ddeec4a5eba33
+Runtime bytes: 4149232
+Runtime SHA-256: bbd3af05a14b4bfc29a4e2226244951362c406b433d5ee93a752d0412b3efbc5
+
+- Freeze the reviewed source pose and, when eligible, a source-rig partial mouth-close target before making morph animation deterministic. Operation: bake-and-join.
+- Align length to X, center the visible bounds, and apply habitat grounding. Operation: canonical-transform.
+- Export one traceable, closed-loop, in-place project Idle. Operation: replace-runtime-animation.
+- Authored and validator-checked one closed eight-second flying-wing Idle for the shared museum viewer.
+- Included the human-reviewed curated-components partial mouth relaxation in the same Idle loop.

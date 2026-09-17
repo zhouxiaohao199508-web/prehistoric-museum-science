@@ -1,0 +1,14 @@
+Model source and derivation
+
+Title: Archaeopteryx
+Author: khata
+Direct source: https://sketchfab.com/3d-models/archaeopteryx-cbec5591c584438392824d13fbef401b
+Accessed: 2026-08-28
+Private source evidence: assets/candidates/open-source-live-expansion-2026-08-28/archaeopteryx/source/archaeopteryx-original.zip
+Source bytes: 66720542
+Source SHA-256: 749d31141a63a89a8e939842c98bad0d12cd1168114a9bc51937046c8255252e
+Runtime bytes: 5954164
+Runtime SHA-256: bf3e125a0b834202ba4a3709788375165d68bcd79691692a17debc22702e89da
+
+- Restored supplied textures, compressed the runtime model, and changed feather transparency to stable alpha masking.
+- Retained the author-authored fully extended wing interval and retimed paired wing, body, neck, head and tail motion into a closed eight-second two-flap Idle.

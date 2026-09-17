@@ -1,0 +1,26 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Seed: 20260726
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-09-01
+
+Chinese narration
+
+Language: Chinese
+Generated: 2026-08-29
+Runtime bytes: 145485
+Runtime SHA-256: 736427a33d71f4a5af235961f4daba968d2e84e3068611660785f39c735cb20f
+Script: 这是水龙兽，一种生活在二叠纪末到三叠纪初的植食性合弓动物，它不是恐龙。看看它短短的脸、像喙一样的嘴和两枚獠牙，难怪让人一眼就记住。
+
+English narration
+
+Language: English
+Generated: 2026-08-31
+Runtime bytes: 159165
+Runtime SHA-256: 92d59b949042a63557f0ab8abaaa13823d68d89faa029136efd0b8160f2fed46
+Script: This is Lystrosaurus, a plant-eating synapsid from the Late Permian and Early Triassic, not a dinosaur. Look at its short face, beak-like mouth and two tusks; this funny little animal is hard to forget!

@@ -1,0 +1,21 @@
+Plesiosaur background generation record
+========================================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-30
+Use: project-specific responsive museum backgrounds
+
+The landscape and portrait were generated as separate warm Jurassic shallow
+sea compositions. Both keep the water surface high, the seabed low, and a
+quiet low-contrast central swimming area. The prompts explicitly excluded
+animals, fish, people, boats, text, logos, UI, and watermarks. The exact
+prompts are recorded in the typed provenance.
+
+Landscape source PNG: 1,540,514 bytes
+SHA-256: 4b8d6632120bb2d79a4361e6b2e4b3b3bc99980de24f6e07d26f599a04f97dd4
+
+Portrait source PNG: 1,727,512 bytes
+SHA-256: d6336b8c329a4191b2f4d4e21c87ca894083673d7a30f33f374f941efe51e97f
+
+The reviewed sources were converted to metadata-free WebP runtime assets at
+quality 82. The project owner approved public distribution on 2026-07-31.

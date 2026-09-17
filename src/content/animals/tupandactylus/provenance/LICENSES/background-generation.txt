@@ -1,0 +1,15 @@
+Reviewed background generation
+
+Tool: OpenAI built-in ImageGen
+Generated: 2026-08-01
+Approved: Project owner on 2026-08-01
+
+Landscape source: assets/candidates/animal-onboarding-2026-08-01/tupandactylus/working/backgrounds/landscape-source.png
+Landscape prompt: Wide Early Cretaceous Crato coastal lagoon with pale limestone shores and open blue-green sky, no animals or text.
+Landscape source SHA-256: c065afba930d87fda0ac729b1fcbc89f7b5dddb3ca319afd9366c1586ad3c097
+Landscape runtime SHA-256: 8315cf166e68d330585c1eb39dc51e0664e2fea9f99c6d9842d420b68e70fa73
+
+Portrait source: assets/candidates/animal-onboarding-2026-08-01/tupandactylus/working/backgrounds/portrait-source.png
+Portrait prompt: Portrait Early Cretaceous Crato lagoon channel with a broad open sky and pale limestone shoals, no animals or text.
+Portrait source SHA-256: 3a52641c489fc233a2ad6a823fa0d3abbf204ac2c94aad3ac5b7ce3301c7a825
+Portrait runtime SHA-256: 3c1062e441dbff5da00332d4c06c91fc4a4cc15dd7acf27dbf5f888f1c8d1ebc

@@ -1,0 +1,21 @@
+Poster and thumbnail derivation record
+======================================
+
+Generated: 2026-07-30
+Thumbnail recomposed: 2026-08-16
+
+The poster is a browser-rendered presentation of the repaired rigged woolly
+mammoth over its steppe-tundra. It captures the live Idle after the head/body
+blend was matched across the neck surfaces and the tail root was held
+stationary. The 1440 x 900 production application was cropped at x=460,y=120
+to a 960 x 540 poster without text or controls.
+
+The 320 x 320 collection thumbnail was recomposed from the central square of
+the clarified 4096 x 2304 intermediate that preceded the optimized runtime
+background and from the transparent poster silhouette. The complete 250 x 192
+silhouette is placed at x=35,y=66 so the tusks, feet, and rear body remain
+visible with balanced margins.
+
+The model attribution and CC BY 4.0 terms in model-license.txt continue to
+apply to both images. The background was generated specifically for this
+project; its generation record is retained in background-generation.txt.

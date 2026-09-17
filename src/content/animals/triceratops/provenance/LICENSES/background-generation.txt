@@ -1,0 +1,28 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-29
+Use: project-specific responsive museum backgrounds
+
+Prompt direction:
+Precisely edit the accepted sage meadow while preserving its layered-paper and
+soft-gouache style, palette, clouds, distant hills, vegetation, rocks,
+textures, and side framing. Raise the horizon to about 43% in landscape and
+bring the open level ground into the central staging band in portrait so a
+centred Triceratops stands firmly. No animal, person, text, UI, logo,
+watermark, shadow, or baked-in particles.
+
+The accepted 16:9 and 9:16 images were edited independently. The portrait
+source was normalized by one pixel to 941 x 1672 before encoding.
+
+Landscape source PNG:
+- bytes: 2779171
+- SHA-256: d4c30c73854217caf6a81992ba0c09ac25d5d7c2d37616fc09f087a44bf0cbc7
+
+Portrait source PNG:
+- bytes: 2581499
+- SHA-256: b5f6c6747f4da60682e5de591d287170be2befeee28b109f3268d6761eadaee3
+
+The runtime copies were converted to WebP at quality 82 with metadata removed. Public
+release remains subject to the repository owner's final rights review.

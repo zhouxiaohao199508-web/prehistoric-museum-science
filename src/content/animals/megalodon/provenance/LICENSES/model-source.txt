@@ -1,0 +1,21 @@
+Megalodon model source and modifications
+=========================================
+
+Direct source:
+https://sketchfab.com/3d-models/otodus-megalodon-updated-animations-7e65b8c51251440e9aca8385f286714f
+
+Creator: CanYuTsai
+License: CC BY 4.0
+Original downloaded GLB: 553,956 bytes
+Original SHA-256:
+e578fe3b1589464526077f33fba1570cf2fc101c354082235f0aaa68dd8cdff4
+
+The project retained the skinned hierarchy, applied a desaturated matte
+aquatic material, and replaced the mouth-focused source action with an
+eight-second in-place swimming Idle. The head chain remains nearly stable,
+while a travelling propulsion wave grows from the tail root to the tail tip
+and the paired fins make restrained supporting movements.
+
+Published runtime GLB: 248,844 bytes
+Published SHA-256:
+b6a5957240770e61f91022189a8e95c65a0548313f59ecaba0b431c31e47dffa

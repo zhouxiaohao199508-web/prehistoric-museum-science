@@ -1,0 +1,459 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://leon-made-this.local/schemas/animal-onboarding/asset-inspection.schema.json",
+  "title": "Prehistoric animal source-package inspection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "animalId",
+    "inspectionId",
+    "sourcePackage",
+    "plannedOperations",
+    "knownIssues",
+    "executionControls"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "animalId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "inspectionId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "sourcePackage": {
+      "$ref": "#/$defs/sourcePackage"
+    },
+    "plannedOperations": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/plannedOperation"
+      }
+    },
+    "knownIssues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/knownIssue"
+      }
+    },
+    "executionControls": {
+      "$ref": "#/$defs/executionControls"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "plannedOperations": {
+            "contains": {
+              "const": "reuse-as-is"
+            }
+          }
+        },
+        "required": [
+          "plannedOperations"
+        ]
+      },
+      "then": {
+        "properties": {
+          "plannedOperations": {
+            "items": {
+              "enum": [
+                "reuse-as-is",
+                "metadata-only"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^\\S(?:.*\\S)?$"
+    },
+    "sourcePackage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modelPresent",
+        "directSourceVerified",
+        "modificationAllowed",
+        "redistributionAllowed",
+        "primaryFormat",
+        "runtimeReadyGlb",
+        "editableSource",
+        "texturesComplete",
+        "topology",
+        "semanticParts",
+        "rig",
+        "skinWeights",
+        "animations",
+        "transparency",
+        "evidencePaths"
+      ],
+      "properties": {
+        "modelPresent": {
+          "type": "boolean"
+        },
+        "directSourceVerified": {
+          "type": "boolean"
+        },
+        "modificationAllowed": {
+          "type": "boolean"
+        },
+        "redistributionAllowed": {
+          "type": "boolean"
+        },
+        "primaryFormat": {
+          "enum": [
+            "glb",
+            "gltf",
+            "blend",
+            "fbx",
+            "obj",
+            "other"
+          ]
+        },
+        "runtimeReadyGlb": {
+          "type": "boolean"
+        },
+        "editableSource": {
+          "type": "boolean"
+        },
+        "texturesComplete": {
+          "type": "boolean"
+        },
+        "topology": {
+          "enum": [
+            "verified-clean",
+            "repairable",
+            "broken",
+            "unknown"
+          ]
+        },
+        "semanticParts": {
+          "enum": [
+            "complete",
+            "partial",
+            "none",
+            "unknown"
+          ]
+        },
+        "rig": {
+          "enum": [
+            "verified",
+            "unverified",
+            "none"
+          ]
+        },
+        "skinWeights": {
+          "enum": [
+            "verified",
+            "unverified",
+            "none"
+          ]
+        },
+        "animations": {
+          "enum": [
+            "verified",
+            "unverified",
+            "none"
+          ]
+        },
+        "transparency": {
+          "enum": [
+            "none",
+            "simple",
+            "complex",
+            "unknown"
+          ]
+        },
+        "evidencePaths": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
+        }
+      }
+    },
+    "plannedOperation": {
+      "enum": [
+        "reuse-as-is",
+        "metadata-only",
+        "presentation-tuning",
+        "axis-scale-normalization",
+        "material-relink",
+        "texture-repack",
+        "animation-rename",
+        "animation-retime",
+        "mesh-decimation",
+        "bounded-part-transform",
+        "bounded-component-removal",
+        "topology-repair",
+        "bone-adjustment",
+        "skin-weight-repair",
+        "source-rig-animation",
+        "material-rebuild",
+        "new-rig",
+        "full-rebind",
+        "anatomy-reconstruction",
+        "complex-transparency-rebuild",
+        "mouth-reconstruction"
+      ]
+    },
+    "knownIssue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "severity",
+        "scope",
+        "description",
+        "reviewContractBinding"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "category": {
+          "enum": [
+            "anatomy",
+            "topology",
+            "rigging",
+            "deformation",
+            "motion",
+            "materials",
+            "transparency",
+            "presentation",
+            "interaction",
+            "performance",
+            "scientific-identity",
+            "child-comfort"
+          ]
+        },
+        "severity": {
+          "enum": [
+            "warning",
+            "must-fix"
+          ]
+        },
+        "scope": {
+          "enum": [
+            "localized",
+            "distributed",
+            "unknown"
+          ]
+        },
+        "description": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "reviewContractBinding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "subjectType",
+            "subjectId",
+            "evidenceRequirementIds"
+          ],
+          "properties": {
+            "subjectType": {
+              "enum": [
+                "target-issue",
+                "invariant",
+                "state-sequence"
+              ]
+            },
+            "subjectId": {
+              "$ref": "#/$defs/identifier"
+            },
+            "evidenceRequirementIds": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "$ref": "#/$defs/identifier"
+              }
+            }
+          }
+        }
+      }
+    },
+    "executionControls": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "l3Acceptance",
+        "parallelRequested",
+        "animalWorkspacePath",
+        "stageLockId",
+        "stageLockPath",
+        "stageLockSha256",
+        "reviewContractPath",
+        "reviewContractSha256"
+      ],
+      "properties": {
+        "l3Acceptance": {
+          "$ref": "#/$defs/l3Acceptance"
+        },
+        "parallelRequested": {
+          "type": "boolean"
+        },
+        "animalWorkspacePath": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "stageLockId": {
+          "$ref": "#/$defs/nullableIdentifier"
+        },
+        "stageLockPath": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "stageLockSha256": {
+          "$ref": "#/$defs/nullableSha256"
+        },
+        "reviewContractPath": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "reviewContractSha256": {
+          "$ref": "#/$defs/nullableSha256"
+        }
+      }
+    },
+    "nullableString": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "nullableIdentifier": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/identifier"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "nullableSha256": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "l3Acceptance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "acceptedBy",
+        "acceptedOn",
+        "recordPath",
+        "recordSha256",
+        "acceptedReviewContractSha256"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "accepted",
+            "not-accepted"
+          ]
+        },
+        "acceptedBy": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "acceptedOn": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "recordPath": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "recordSha256": {
+          "$ref": "#/$defs/nullableSha256"
+        },
+        "acceptedReviewContractSha256": {
+          "$ref": "#/$defs/nullableSha256"
+        }
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "status": {
+              "const": "accepted"
+            },
+            "acceptedBy": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "acceptedOn": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "recordPath": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "recordSha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "acceptedReviewContractSha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          }
+        },
+        {
+          "properties": {
+            "status": {
+              "const": "not-accepted"
+            },
+            "acceptedBy": {
+              "type": "null"
+            },
+            "acceptedOn": {
+              "type": "null"
+            },
+            "recordPath": {
+              "type": "null"
+            },
+            "recordSha256": {
+              "type": "null"
+            },
+            "acceptedReviewContractSha256": {
+              "type": "null"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

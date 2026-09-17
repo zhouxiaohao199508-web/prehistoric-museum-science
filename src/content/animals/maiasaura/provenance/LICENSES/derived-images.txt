@@ -1,0 +1,18 @@
+Maiasaura poster and thumbnail derivation record
+================================================
+
+Generated: 2026-07-31
+Thumbnail reframed: 2026-08-05
+
+The poster is a 960 × 540 WebP capture of the accepted model and landscape in
+the shared Three.js viewer, without text, controls, logos, or watermarks. The
+320 × 320 thumbnail was derived from a separate 720 × 720 stage-only capture
+so the complete head, feet, and tail remain visible above the card badge.
+
+On 2026-08-05, the thumbnail was rebuilt deterministically from the accepted
+transparent model still and landscape background. The complete animal was
+kept unchanged and moved lower in the square so its feet sit near 63% of the
+image height. It was encoded as a 320 x 320 WebP without interface chrome.
+
+The model attribution and CC BY 4.0 terms in model-license.txt continue to
+apply. The background generation record is retained separately.

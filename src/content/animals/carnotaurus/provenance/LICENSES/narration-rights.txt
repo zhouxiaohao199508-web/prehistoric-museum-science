@@ -1,0 +1,26 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Seed: 20260726
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-09-01
+
+Chinese narration
+
+Language: Chinese
+Generated: 2026-08-31
+Runtime bytes: 132765
+Runtime SHA-256: 214732f97ecfc4ec0ceb55ea53f4af1436009fae18a471297f3dfd2887fb984b
+Script: 这是食肉牛龙，一种生活在晚白垩世南美洲的大型肉食恐龙。看看它眼睛上方的双角、短脸和小小的前肢，哪一个特征最容易认出来？
+
+English narration
+
+Language: English
+Generated: 2026-08-29
+Runtime bytes: 151245
+Runtime SHA-256: adeb2ea856e62ea21148c9450a9506d09e5580ae29e3c03518b01cd7c4b312b0
+Script: This is Carnotaurus, a large meat-eating dinosaur from Late Cretaceous South America. Look at the two horns above its eyes, short face and tiny arms. Which feature is easiest to recognise?

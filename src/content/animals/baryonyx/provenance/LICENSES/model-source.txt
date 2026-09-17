@@ -1,0 +1,14 @@
+Model source and derivation
+
+Title: Baryonyx
+Author: Paleo Modelist
+Direct source: https://sketchfab.com/3d-models/baryonyx-09b838e4bad84b33a647c647f42f4acd
+Accessed: 2026-08-28
+Private source evidence: assets/candidates/open-source-live-expansion-2026-08-28/baryonyx/source/baryonyx-original.zip
+Source bytes: 9801706
+Source SHA-256: c61961addc938479f776eac7c7d8dc574836c809f81063a24b4552df3d0b38b7
+Runtime bytes: 822340
+Runtime SHA-256: 6bd4dbf4924e8b0c22e3687eaed30889d8bbf4f0463395cffc9e458d2688ffdc
+
+- Relinked and embedded the supplied textures, then compressed the runtime model for browser delivery.
+- Retimed the source seamless motion into a deterministic closed Idle and preserved the reviewed long snout and hand claw.

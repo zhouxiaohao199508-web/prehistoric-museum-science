@@ -1,0 +1,16 @@
+Reviewed background generation
+
+Tool: OpenAI built-in ImageGen
+Generated: 2026-08-29
+Approved: Project owner on 2026-09-01
+Generation record: assets/candidates/open-source-live-expansion-2026-08-28/background-generation-2026-08-29.md
+
+Landscape private source: assets/candidates/open-source-live-expansion-2026-08-28/archaeopteryx/backgrounds/landscape-source-v2.png
+Landscape source SHA-256: c52db27a669facd56c6d43a0765016c0cddf71b205737415ccbae19112a25fe5
+Landscape runtime SHA-256: a20650760ab07b5859567f5d71d2f034b4fbb60860db440124b1af5c65bd6931
+
+Portrait private source: assets/candidates/open-source-live-expansion-2026-08-28/archaeopteryx/backgrounds/portrait-source-v2.png
+Portrait source SHA-256: 932a83a0396e1cb1e4e59b8b57f25d0ee8f6ef457e80aebbdcace01ebc1fdac1
+Portrait runtime SHA-256: fbbad2b996d6115d0b5b95fc30093599c80eeb62c590cb5124315cd7906ab5c5
+
+Prompts and revision-specific conversion details are recorded in provenance.ts and the private generation record above. The public runtime contains only the approved WebP outputs.

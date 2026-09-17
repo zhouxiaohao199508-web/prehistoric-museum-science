@@ -1,0 +1,7 @@
+Derived review images
+
+Animal: 始祖鸟 / Archaeopteryx
+Generated: 2026-08-30
+Method: deterministic first-frame transparent renders from the accepted runtime model, plus a 320 × 320 collection composition using the accepted landscape background.
+Inputs: model/model.glb and backgrounds/landscape.webp
+Approved: Project owner on 2026-09-01

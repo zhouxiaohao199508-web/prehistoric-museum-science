@@ -1,0 +1,30 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Language: Chinese
+Seed: 20260726
+Generated: 2026-07-31
+Runtime bytes: 108525
+Runtime SHA-256: 0b8c7f4b55d947beb9e5df4728289362f7447dc68d3cd751091462c5ed80f7ee
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-07-31
+
+Script: 这是双冠龙，一种生活在早侏罗世北美洲的肉食性恐龙。看看它头顶并排的两片冠，再找找弯曲的尖牙和有力的后腿。
+
+English narration approval
+
+Locale: en
+Speaker: Serena
+Language: English
+Generated: 2026-08-07
+Runtime bytes: 164685
+Runtime SHA-256: 05bb9c7ad3db9abcbf016f12a98df0a0c1ae8d1adbd7c2bf5a67074ad5a8eded
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-07
+
+Script: This is Dilophosaurus, a meat-eating dinosaur that lived in North America during the Early Jurassic. Can you spot the two thin crests side by side on its head? Now look for curved teeth and powerful hind legs.

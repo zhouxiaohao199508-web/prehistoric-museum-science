@@ -1,0 +1,15 @@
+Reviewed background generation
+
+Tool: OpenAI built-in ImageGen
+Generated: 2026-07-31
+Approved: Project owner on 2026-07-31
+
+Landscape source: assets/candidates/animal-onboarding-2026-07-31/dilophosaurus/working/backgrounds/landscape-source.png
+Landscape prompt: Empty Early Jurassic Kayenta floodplain and sandstone wash, true 16:9, open central ground stage, museum gouache/matte-painting hybrid, no animals or text.
+Landscape source SHA-256: 49f01c5a079e48033b66a522fcb24316be2128cc87c51da2190ee1320a2ee251
+Landscape runtime SHA-256: 776459c11a6281b2cd93c5870a8b05beec9379d7d57435a37f457fcbacb2d1c3
+
+Portrait source: assets/candidates/animal-onboarding-2026-07-31/dilophosaurus/working/backgrounds/portrait-source.png
+Portrait prompt: Portrait companion of the same Kayenta habitat, true 9:16, open central stage, no animals or text.
+Portrait source SHA-256: d8979bca0c9b5fe8fb9c9af19590402ad42bc3db6efa33d2680b74c83f331e91
+Portrait runtime SHA-256: c785dc8534908407e1afb19814f4980a406859b54c2afab195701ab28638c61f

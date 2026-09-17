@@ -1,0 +1,13 @@
+Model license record
+====================
+
+Asset: Maiasaura With Rig
+Creator: Dino Dan
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Source URL: https://sketchfab.com/3d-models/maiasaura-with-rig-3da9f211ae304bd0afd1d15a290eabbd
+Accessed: 2026-07-26
+
+Attribution:
+“Maiasaura With Rig” by Dino Dan, CC BY 4.0; modified for the
+Prehistoric Animal Museum.

@@ -1,0 +1,28 @@
+Poster, preview and thumbnail derivation record
+===============================================
+
+Transparent poster pair generated: 2026-08-05
+Responsive previews and thumbnail refreshed: 2026-08-09
+
+The transparent poster pair remains the accepted deterministic first frame of
+the replacement Apatosaurus, with transparent pixels outside the model and no
+text, controls, logos, or watermarks.
+
+The six shared responsive model previews and their manifest were regenerated
+after retuning the live presentation against the bright high-horizon habitat.
+The contact shadow uses a 0.38 horizontal scale, 0.9 depth scale, -0.62
+horizontal offset, and 0.56 opacity. Camera-relative light scale is 1.05,
+tone-mapping exposure is 1.28, and the landscape and portrait vertical offsets
+are 0.035 and 0.05. The animal geometry remains grounded at y=0; these changes
+strengthen the four-foot contact cue without changing the GLB.
+
+The collection thumbnail was refreshed after the habitat ground was changed
+from a flat gray-green field to natural compact woodland loam with broad moss
+variation. The deterministic first animation frame was rendered in the 1440 x
+900 production viewer with interface chrome hidden. Pixel comparison against
+the same frame with the WebGL canvas hidden located the model, and a 764 x 764
+crop at x=549,y=49 was resized to 320 x 320 and encoded as WebP at quality 82.
+
+The model attribution and CC BY 4.0 terms in model-license.txt continue to
+apply to all derived images. The project background retains its separately
+recorded terms.

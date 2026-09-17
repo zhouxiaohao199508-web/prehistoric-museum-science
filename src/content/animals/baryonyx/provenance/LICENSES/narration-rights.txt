@@ -1,0 +1,26 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Seed: 20260726
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-09-01
+
+Chinese narration
+
+Language: Chinese
+Generated: 2026-09-01
+Runtime bytes: 129405
+Runtime SHA-256: bcfcf45d8ca4ffea0251f79932f53829f29791ea96b40a82ede7fc8d4e5fbfca
+Script: 这是重爪龙，一种生活在早白垩世欧洲的棘龙科兽脚类恐龙。看看它细长的吻部和手上的大爪，哪些特征可能帮助它抓住湿滑的猎物？
+
+English narration
+
+Language: English
+Generated: 2026-08-29
+Runtime bytes: 160845
+Runtime SHA-256: 33e75861cbf2b44dfedb6e7e7f36e961b1f920e378b3bf3bac6d610851b7c135
+Script: This is Baryonyx, a spinosaurid theropod dinosaur that lived in Europe during the Early Cretaceous. Look at its long narrow snout and huge hand claw. Which features might have helped it catch slippery prey?

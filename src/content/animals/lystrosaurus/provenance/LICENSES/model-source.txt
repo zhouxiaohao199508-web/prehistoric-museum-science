@@ -1,0 +1,14 @@
+Model source and derivation
+
+Title: Lystrosaurus
+Author: seth the yutyrannus
+Direct source: https://sketchfab.com/3d-models/lystrosaurus-32ea6a3bedd948638f9add8da7483b28
+Accessed: 2026-08-28
+Private source evidence: assets/candidates/open-source-live-expansion-2026-08-28/lystrosaurus/source/lystrosaurus-original.zip
+Source bytes: 2472111
+Source SHA-256: 3ca04784949e0c28f648090a23b0eb0d3de49a369d9f27803e00153451272db0
+Runtime bytes: 339248
+Runtime SHA-256: f3edc52dc7bbfec681cb7b30b8246f65b84f2980b6bd04f8eee46e5f6a62551a
+
+- Removed an unbound helper object and compressed geometry and textures for browser delivery.
+- Authored a deterministic closed eight-second skeletal Idle with stable four-foot grounding.

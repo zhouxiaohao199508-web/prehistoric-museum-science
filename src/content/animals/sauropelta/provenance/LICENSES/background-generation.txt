@@ -1,0 +1,15 @@
+Reviewed background generation
+
+Tool: OpenAI built-in ImageGen
+Generated: 2026-07-31
+Approved: Project owner on 2026-07-31
+
+Landscape source: assets/candidates/animal-onboarding-2026-07-31/sauropelta/working/backgrounds/landscape-source.png
+Landscape prompt: Empty Early Cretaceous western North American fern floodplain, true 16:9, open central ground stage, museum gouache/matte-painting hybrid, no animals or text.
+Landscape source SHA-256: dc398272e2e58882d87209be400232300164c85330e5156afa5feba693b64b31
+Landscape runtime SHA-256: 03c2e212e57c9c6a6e246c3af723fa150d3d1a22ff4091e008ccb271d4ffec1d
+
+Portrait source: assets/candidates/animal-onboarding-2026-07-31/sauropelta/working/backgrounds/portrait-source.png
+Portrait prompt: Portrait companion of the same Early Cretaceous fern floodplain, true 9:16, open central stage, no animals or text.
+Portrait source SHA-256: f638d3b24c3d814e9103941ac2ac5fc5d366fb380f47ceefde94c9778097f882
+Portrait runtime SHA-256: 7b524977921b8dcee435ce597c022051fed7f76ac77bbf597b6f0660d8d3fabc

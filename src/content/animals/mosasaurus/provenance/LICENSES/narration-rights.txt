@@ -1,0 +1,30 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Language: Chinese
+Seed: 20260726
+Generated: 2026-07-31
+Runtime bytes: 140685
+Runtime SHA-256: 417548bc44f44d906ab32ba9008fc164cda38c6583f519b4e01e68d993c5b6e9
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-07-31
+
+Script: 这是沧龙，一种生活在晚白垩世海洋里的大型有鳞类爬行动物，它并不是恐龙。看看它的鳍状肢和有力的尾部，你能想象它怎样在海水中向前游吗？
+
+English narration approval
+
+Locale: en
+Speaker: Serena
+Language: English
+Generated: 2026-08-07
+Runtime bytes: 163485
+Runtime SHA-256: c38635ea87ab13cc11582094f5957fdb4d28549f9c1f82f81c13bc0d6ce9fd62
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-07
+
+Script: This is Mosasaurus, a huge sea reptile that lived during the Late Cretaceous. It was not a dinosaur. Look at its flippers and powerful tail. Can you imagine its tail pushing it forwards while the flippers steer?

@@ -1,0 +1,30 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Language: Chinese
+Seed: 20260726
+Generated: 2026-08-01
+Runtime bytes: 109725
+Runtime SHA-256: 11dc961e14dfd934f1577ec041d5704e23d235524500d7cbb9b18cef4f18750b
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-01
+
+Script: 这是喙嘴翼龙，它是生活在晚侏罗世、会飞的爬行动物，不是恐龙。看看它长长的尾巴、尾巴末端的小帆和展开的皮膜翅膀。
+
+English narration approval
+
+Locale: en
+Speaker: Serena
+Language: English
+Generated: 2026-08-07
+Runtime bytes: 152685
+Runtime SHA-256: fb6833123c194204addbecf4001b180416dba86e6a82740a9097fcaf5b3ead67
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-07
+
+Script: This is Rhamphorhynchus, a flying reptile from the Late Jurassic. It was not a dinosaur. Look at its long tail, the little sail at its tip and its outstretched wings made from skin membranes.

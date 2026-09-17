@@ -1,0 +1,14 @@
+Poster, preview and thumbnail derivation record
+===============================================
+
+Generated: 2026-08-05
+
+The transparent poster pair and six shared responsive preview profiles were
+rendered from the deterministic first frame of the accepted replacement
+Ichthyosaur in the shared museum viewer. They preserve transparent pixels
+outside the model and contain no text, controls, logos or watermarks.
+
+The collection thumbnail was rendered from the same accepted model in its
+underwater exhibit background, then cropped for card readability. The model
+attribution and CC BY 4.0 terms in model-license.txt continue to apply to all
+derived images; the project background retains its separately recorded terms.

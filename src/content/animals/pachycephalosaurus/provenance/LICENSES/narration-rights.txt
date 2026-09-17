@@ -1,0 +1,37 @@
+Qwen3-TTS Serena narration rights record
+Reviewed: 2026-07-28
+
+The narration script is project-authored. The audio was generated offline with
+Qwen3-TTS-12Hz-0.6B-CustomVoice using its built-in Serena speaker and was
+listened to and approved by the project owner.
+
+Primary-source basis:
+
+- Qwen3-TTS code and the official 0.6B CustomVoice model card are Apache-2.0.
+  https://github.com/QwenLM/Qwen3-TTS/blob/main/LICENSE
+  https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+- Qwen's official release article explicitly lists Serena among the nine
+  open-sourced timbres.
+  https://qwen.ai/blog/?id=qwen3tts-0115
+- The official open-source materials add no research-only, non-commercial, or
+  generated-audio redistribution restriction.
+
+The project owner approves public distribution of the reviewed MP3. The public
+notice identifies the model, Serena speaker, AI synthesis, and Apache-2.0
+model license. A residual risk is retained because the official materials do
+not separately disclose Serena's training/performance or voice-personality
+rights chain. The audio must not imply endorsement by Qwen or Alibaba.
+
+English narration approval
+
+Locale: en
+Speaker: Serena
+Language: English
+Generated: 2026-08-07
+Runtime bytes: 128205
+Runtime SHA-256: b80a946b9a91553cf92e47a99b2c9843f0fd533c1c6fcce648c95acb7e7af2b9
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-07
+
+Script: This is Pachycephalosaurus, a plant-eating dinosaur from the Late Cretaceous. Look at its round, bony dome and the little bumps around it. Does it look like a small, round hat?

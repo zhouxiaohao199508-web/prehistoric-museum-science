@@ -1,0 +1,55 @@
+{
+  "animalId": "archaeopteryx",
+  "contractVersion": 3,
+  "generatedAt": "2026-08-30T07:23:30.492Z",
+  "presentationSignature": "{\"contractVersion\":3,\"renderer\":{\"cameraFieldOfViewDegrees\":34,\"maxPixelRatio\":2},\"layout\":{\"coordinateSystem\":\"fixed-fullscreen-canvas+composition-frame-v1\",\"phonePortraitModelScale\":1.15,\"previewObjectFit\":\"contain\",\"referenceViewports\":[{\"key\":\"landscapeCompact\",\"width\":844,\"height\":390},{\"key\":\"desktopWide\",\"width\":1280,\"height\":720},{\"key\":\"phonePortraitCompact\",\"width\":360,\"height\":640},{\"key\":\"phonePortraitTall\",\"width\":390,\"height\":844},{\"key\":\"tabletPortrait\",\"width\":768,\"height\":1024},{\"key\":\"desktopStandard\",\"width\":1440,\"height\":900}]},\"animation\":{\"clip\":\"Idle\",\"loop\":\"repeat\",\"speed\":1},\"presentation\":{\"cameraLightScale\":1.08,\"horizontalOffset\":{\"landscape\":0,\"portrait\":0},\"initialYawDegrees\":-90,\"preciseBounds\":true,\"safeAreaPadding\":{\"landscape\":0.12,\"portrait\":0.1},\"shadow\":{\"depthOffset\":0,\"depthScale\":1,\"horizontalOffset\":0,\"opacity\":0,\"scale\":0.62,\"yOffset\":0},\"toneMappingExposure\":1,\"verticalOffset\":{\"landscape\":0,\"portrait\":0}}}",
+  "profiles": {
+    "landscapeCompact": {
+      "bytes": 74198,
+      "fileName": "preview-landscape-compact.webp",
+      "height": 650,
+      "sha256": "7f7b875d6b4ac0dd0501af2e070b7dc0d6064c1310ae2e1db0e9cfef85dd1b9b",
+      "width": 1250
+    },
+    "desktopWide": {
+      "bytes": 104996,
+      "fileName": "preview-desktop-wide.webp",
+      "height": 800,
+      "sha256": "6f9e239ed27681a3498c15bd9841cdd48afe1fca1a0651a22ad6ca4f90f51f84",
+      "width": 1200
+    },
+    "phonePortraitCompact": {
+      "bytes": 93126,
+      "fileName": "preview-phone-compact.webp",
+      "height": 1000,
+      "sha256": "5a6885f6a21f47b2e219eca6b2dca4f9e91f3f3f307eaaa5c8eaebf9e2ed93fb",
+      "width": 875
+    },
+    "phonePortraitTall": {
+      "bytes": 68814,
+      "fileName": "preview-phone-tall.webp",
+      "height": 1000,
+      "sha256": "867b2dc50137d94ed78cbf6a5385c3ba033365f66ead48a5ff630846da3f6222",
+      "width": 640
+    },
+    "tabletPortrait": {
+      "bytes": 89744,
+      "fileName": "preview-tablet-portrait.webp",
+      "height": 960,
+      "sha256": "100ebcc83436020db3aedb6fca4cc34ee59b707ea7fda848309b893d5ec5cf30",
+      "width": 900
+    },
+    "desktopStandard": {
+      "bytes": 119252,
+      "fileName": "preview-desktop-standard.webp",
+      "height": 960,
+      "sha256": "d83a1b01874573c7a18390106f4abcd5198187b6320cb78d843ffd8783fc2f49",
+      "width": 1200
+    }
+  },
+  "sourceModel": {
+    "bytes": 5954164,
+    "sha256": "bf3e125a0b834202ba4a3709788375165d68bcd79691692a17debc22702e89da"
+  },
+  "target": "production"
+}

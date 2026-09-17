@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "status": "production-approved",
+  "productionApproved": true,
+  "publicDistributionDecision": "approved",
+  "approvedBy": "Leon",
+  "approvedOn": "2026-09-01",
+  "approvalEvidence": "Leon explicitly accepted all 24 animals and confirmed production installation of the selected narration, child-avatar and environment runtime assets.",
+  "assetGroups": {
+    "avatars": {
+      "status": "production-approved",
+      "binaryCount": 10,
+      "licenseEvidence": {
+        "provider": "Meshy",
+        "planAtGeneration": "Pro",
+        "licenseType": "Private",
+        "generationVisibility": "private",
+        "publishedToCommunity": false,
+        "referenceInputRightsAttested": true,
+        "projectAuthorization": [
+          "use",
+          "modify",
+          "distribute-with-application"
+        ],
+        "attestedBy": "Leon",
+        "attestedOn": "2026-08-19",
+        "termsEvidence": [
+          "https://www.meshy.ai/terms-of-use",
+          "https://help.meshy.ai/en/articles/9992001-can-i-use-meshy-assets-commercially-license-copyright-explained",
+          "https://docs.meshy.ai/en/webapp/pricing"
+        ]
+      }
+    },
+    "environments": {
+      "status": "production-approved",
+      "binaryCount": 55,
+      "provenance": "PROVENANCE.md"
+    },
+    "narration": {
+      "status": "production-approved",
+      "binaryCount": 148,
+      "manifest": "../audio/narration-candidates.json"
+    }
+  }
+}

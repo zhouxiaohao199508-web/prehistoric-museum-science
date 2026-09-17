@@ -1,0 +1,26 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Seed: 20260726
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-09-01
+
+Chinese narration
+
+Language: Chinese
+Generated: 2026-08-31
+Runtime bytes: 142125
+Runtime SHA-256: d2e5fce062d7da5f1a63b0e1773f62402dca56042a5fdf43131587a5f3f26fc0
+Script: 这是棘龙，一种生活在晚白垩世早期北非的大型兽脚类恐龙。看看它狭长的吻部、高高的背帆和长尾巴，你觉得哪些特征可能帮助它在水边生活？
+
+English narration
+
+Language: English
+Generated: 2026-08-29
+Runtime bytes: 167325
+Runtime SHA-256: 7775ec734bf9c411413a89a832856ba71fa69308948b2258cd0a934178e4b5df
+Script: This is Spinosaurus, a large theropod dinosaur that lived in North Africa during the early Late Cretaceous. Look at its long narrow snout, tall sail and long tail. Which parts look useful for life near the water?

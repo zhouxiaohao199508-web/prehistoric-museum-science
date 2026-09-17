@@ -1,0 +1,15 @@
+Reviewed background generation
+
+Tool: OpenAI built-in ImageGen
+Generated: 2026-07-31
+Approved: Project owner on 2026-08-01
+
+Landscape source: assets/candidates/animal-onboarding-2026-07-31/rhamphorhynchus/working/backgrounds/landscape-source.png
+Landscape prompt: Wide Late Jurassic Solnhofen limestone archipelago and shallow lagoon, low horizon with an open blue-teal central flight area, museum environment art, no animals or text.
+Landscape source SHA-256: 928495d01c4fd003c0f8e4ae6f1c117382d3d8fbc810b4b9dd8543be720ba927
+Landscape runtime SHA-256: 418379f31b603ab69ed302f025c200d7f33ec1547d726369fc029fcc7a846d2b
+
+Portrait source: assets/candidates/animal-onboarding-2026-07-31/rhamphorhynchus/working/backgrounds/portrait-source.png
+Portrait prompt: Portrait Late Jurassic Solnhofen lagoon channel with a broad open blue-teal sky and low limestone islands, museum environment art, no animals or text.
+Portrait source SHA-256: b3e5f1340547a64788b523204244e508ecba350d4bf1f036867f39ae29e5d04d
+Portrait runtime SHA-256: 4f761bca9892888876cef2dd8220484c755ac6804dc5d67277775c10c51de9f2

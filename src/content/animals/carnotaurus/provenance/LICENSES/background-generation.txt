@@ -1,0 +1,16 @@
+Reviewed background generation
+
+Tool: OpenAI built-in ImageGen
+Generated: 2026-08-29
+Approved: Project owner on 2026-09-01
+Generation record: assets/candidates/open-source-live-expansion-2026-08-28/background-generation-2026-08-29.md
+
+Landscape private source: assets/candidates/open-source-live-expansion-2026-08-28/carnotaurus/backgrounds/landscape-source.png
+Landscape source SHA-256: cf6bee657567766323c9fd2817e752efd272209de29270374f5e478473a21434
+Landscape runtime SHA-256: 0468967d20f22c1a8ec2ac4b28b9631ece1c5d7abd8bb73a4a2c8fa8d835485a
+
+Portrait private source: assets/candidates/open-source-live-expansion-2026-08-28/carnotaurus/backgrounds/portrait-source.png
+Portrait source SHA-256: e163236025401ab5763d1cf763ed009d1e5e67bb7def3203a69ea9d763354717
+Portrait runtime SHA-256: 362a75eafe77e5f8a8de47f36e588f870302970f3006fdf996b1e8f6787bcf1a
+
+Prompts and revision-specific conversion details are recorded in provenance.ts and the private generation record above. The public runtime contains only the approved WebP outputs.

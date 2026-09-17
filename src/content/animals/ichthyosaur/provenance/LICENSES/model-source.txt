@@ -1,0 +1,16 @@
+Model source record
+===================
+
+- Downloaded: 2026-08-04
+- Source title: ichthyosaurus
+- Creator: Julian Johnson-Mortimer / FreddyFoxFreddy
+- Source URL: https://sketchfab.com/3d-models/ichthyosaurus-ef8609f5efa84984bc1800bdb36aac3c
+- License shown by source page: Creative Commons Attribution 4.0 International
+- License URL: https://creativecommons.org/licenses/by/4.0/
+- Download option: converted GLB with 1K textures
+- Preserved source size: 8,751,284 bytes
+- Preserved source SHA-256: cfeb3db3b31e36180249cffd9e435b3c6a01ad0075d31b7efb2bc1b9025368dc
+
+The source archive is retained unchanged in the private intake area. The
+tracked runtime derivative preserves attribution and records all project
+modifications in the package provenance.

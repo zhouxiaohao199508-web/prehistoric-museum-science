@@ -1,0 +1,48 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-08-09
+Use: project-specific responsive museum backgrounds
+
+Prompt direction:
+Edit the approved bright, premium children's natural-history backgrounds so
+the Apatosaurus landscape and portrait views share one cool green habitat
+identity. Preserve the tall araucarian-like conifers, ginkgoes, tree ferns,
+cycads, fern beds, horsetails, pale blue sky, welcoming daylight, edge framing,
+and unobstructed central stage. Use the earlier lush Apatosaurus explorations
+only as a gray-green colour and moisture reference; do not inherit their dark
+photographic lighting.
+
+For landscape, raise the vegetation-to-ground boundary to about 47-49% and
+keep the 55-63% foot band flat and clear. For portrait, keep the boundary near
+50-52% and the 59-65% centred foot band flat and clear. Replace both beige and
+mustard ground treatments with the same low-saturation moss, sage, and
+gray-green habitat palette that complements the cool gray animal skin.
+
+Render the exposed ground as genuine compact, slightly moist woodland loam,
+not a uniform painted field. Use broad irregular gray-brown soil areas with a
+thin discontinuous sage-moss film and sparse, low-contrast, non-repeating grain
+that reads as natural earth at viewing distance. Explicitly avoid cement,
+concrete, screed, paving, plaster, studio cycloramas, flat colour fields, water,
+visible rings, loops, cells, dense cracks, dots, pits, pebble carpets, scales,
+repeating motifs, and other dense or trypophobia-triggering texture. Also avoid
+plants beneath the feet, dark or gloomy lighting, baked-in animal shadows,
+platforms, roads, tracks, animals, people, flowers, modern grass, text, UI,
+logos, and watermarks.
+
+The final 16:9 and 9:16 images were edited as separate compositions with the
+current bright backgrounds as composition locks and the earlier lush sources
+as colour/material references only.
+
+Landscape source PNG:
+- bytes: 2628083
+- SHA-256: db41886d28add93a817ea7a7d4b17bd2c6222d7b6b4e33daff946ccce1e4ba92
+
+Portrait source PNG:
+- bytes: 2840653
+- SHA-256: 79a3135c86652a7278ceafc719c05b334e5b2966f8c9dc73860b38f11fbe642d
+
+The runtime copies were resized to 1672 x 941 and 941 x 1672 and converted to
+WebP at quality 82 with metadata removed. Public release remains subject to the
+repository owner's final rights review.

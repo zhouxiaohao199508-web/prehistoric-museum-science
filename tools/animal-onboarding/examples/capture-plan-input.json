@@ -1,0 +1,118 @@
+{
+  "animalId": "example-animal",
+  "finalGlbPath": "assets/candidates/example-animal/output/model.glb",
+  "reviewUrl": "http://127.0.0.1:4175/",
+  "captureMode": "review-efficient",
+  "primaryViewportId": "desktop",
+  "primaryCameraAngleId": "initial",
+  "auxiliaryCameraAngleIds": [
+    "opposite",
+    "rear"
+  ],
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1
+    },
+    {
+      "id": "tablet-portrait",
+      "width": 768,
+      "height": 1024,
+      "deviceScaleFactor": 1
+    },
+    {
+      "id": "phone-portrait",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1
+    },
+    {
+      "id": "phone-compact",
+      "width": 360,
+      "height": 640,
+      "deviceScaleFactor": 1
+    },
+    {
+      "id": "phone-landscape",
+      "width": 844,
+      "height": 390,
+      "deviceScaleFactor": 1
+    }
+  ],
+  "cameraAngles": [
+    {
+      "id": "initial",
+      "yawDegrees": -35,
+      "pitchDegrees": 8,
+      "distance": 4.5,
+      "target": [
+        0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "id": "opposite",
+      "yawDegrees": 145,
+      "pitchDegrees": 8,
+      "distance": 4.5,
+      "target": [
+        0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "id": "rear",
+      "yawDegrees": 215,
+      "pitchDegrees": 8,
+      "distance": 4.5,
+      "target": [
+        0,
+        0.5,
+        0
+      ]
+    }
+  ],
+  "animation": {
+    "clipName": "Idle",
+    "durationSeconds": 8,
+    "sampleTimesSeconds": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ],
+    "actualTimeToleranceSeconds": 0.02
+  },
+  "stateSequence": [
+    {
+      "id": "initial",
+      "kind": "initial",
+      "actions": [
+        {
+          "command": "reset-view"
+        }
+      ],
+      "captureFullLoop": true
+    },
+    {
+      "id": "closest",
+      "kind": "interaction",
+      "actions": [
+        {
+          "command": "zoom",
+          "delta": -480
+        }
+      ]
+    }
+  ],
+  "globalBaseline": {
+    "id": "production-golden",
+    "required": true,
+    "reportPath": ".handoff/animal-onboarding-runs/golden-baseline-report.json"
+  }
+}

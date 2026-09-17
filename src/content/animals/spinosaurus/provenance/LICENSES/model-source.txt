@@ -1,0 +1,14 @@
+Model source and derivation
+
+Title: Spinosaurus
+Author: Pedro B. Goulart
+Direct source: https://sketchfab.com/3d-models/spinosaurus-2a325726dd7b4a7c888277f262fd09bc
+Accessed: 2026-08-28
+Private source evidence: assets/candidates/open-source-live-expansion-2026-08-28/spinosaurus/source/spinosaurus-1k.glb
+Source bytes: 7181248
+Source SHA-256: a4b9f40d35c78e6cb30ac1f4666f5ed1e204332e8ae2a35ff5e91c98b19da8b4
+Runtime bytes: 733612
+Runtime SHA-256: b4b97f2df0acc376495689351bc2c5e1067ab17bd2cd5f8ce4be83e3213d4c84
+
+- Compressed geometry and embedded textures for browser delivery.
+- Retimed the source motion into a deterministic closed eight-second in-place Idle and preserved the reviewed full-body pose.

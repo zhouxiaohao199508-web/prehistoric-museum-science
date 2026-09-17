@@ -1,0 +1,29 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-29
+Use: project-specific responsive museum backgrounds
+
+Prompt direction:
+Refined layered paper-cut picture-book art with soft gouache texture, tactile
+matte paper, and shallow soft shadows. Create an empty late-Cretaceous inland
+sea coast with warm chalk and limestone cliffs, sparse ledge plants, a low
+distant horizon, and an immense pale-blue sky. Keep the airborne centre very
+open and make the portrait composition feel especially high. No pterosaur,
+bird, animal, person, text, UI, logo, watermark, photorealism, or baked-in
+particles and silhouettes.
+
+The 16:9 landscape and 9:16 portrait images were generated as separate
+compositions. The portrait is not a crop of the landscape.
+
+Landscape source PNG:
+- bytes: 2170121
+- SHA-256: 0af35c7711306719b18c9ba8612a2dd28545782004251929985e9abc1655ec60
+
+Portrait source PNG:
+- bytes: 2233292
+- SHA-256: 9c1fc047d7fb26461f83ebd5c9f45592ede469e782661414f670a068c33e2351
+
+The runtime copies were converted to WebP at quality 82 with metadata removed. Public
+release remains subject to the repository owner's final rights review.

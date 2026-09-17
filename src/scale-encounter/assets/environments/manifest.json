@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 3,
+  "assetId": "scale-encounter-production-environments-v1",
+  "status": "production-approved",
+  "productionApproved": true,
+  "publicDistributionDecision": "approved",
+  "runtimeIntegrated": true,
+  "generatedOn": "2026-08-12",
+  "projection": {
+    "kind": "equirectangular",
+    "aspectRatio": "2:1",
+    "sourceWidth": 8192,
+    "sourceHeight": 4096,
+    "deliveryWidths": [
+      8192,
+      4096,
+      2048
+    ],
+    "seamBandPixels": 48,
+    "resampling": "Lanczos downsample only; enlargement is rejected"
+  },
+  "sources": [
+    {
+      "role": "land panorama",
+      "asset": "Forest Slope",
+      "author": "Andreas Mischok",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/forest_slope",
+      "localSource": "source-polyhaven-forest-slope.jpg",
+      "sourceMd5": "e6fb0022bb9f216edc7b2dfb58f19f15",
+      "processing": "official 8K tonemapped JPG; photographed blurred nadir replaced by a mirrored genuine-sky cloud field that converges to one pole-safe blue colour; longitude seam repair and downsample"
+    },
+    {
+      "role": "production-slice D land far-field semantic plate",
+      "asset": "Late Cretaceous open clearing v5",
+      "author": "Leon做了个 project via built-in ImageGen",
+      "license": "project-owned; public distribution approved by Leon on 2026-08-24",
+      "url": null,
+      "localSource": "source-land-cretaceous-v5-farfield.png",
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "sourceMd5": "87ab8fc58facd7d47f9831cc1a122536",
+      "sourceSha256": "0f156426e0d2c64770eacdd483489fb50949a0884bfae71805d5aca345acebfe",
+      "processing": "reviewed ImageGen plate supplies continuous low-frequency Cretaceous composition; 8K CC0 Kloppenheim sky supplies only attenuated high-frequency cloud variation; the authored lower field is downsampled to 32x114 then softly restored through a 358 px vertical feather, with a continuous in-place olive grade and pole convergence; 5.5% broad longitude repair; no constant latitude fill and no claim of native 4K vegetation detail"
+    },
+    {
+      "role": "air panorama",
+      "asset": "Kloppenheim 03 (Pure Sky)",
+      "author": "Greg Zaal (original), Jarod Guest (sky edit)",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/kloppenheim_03_puresky",
+      "localSource": "source-polyhaven-kloppenheim-03-puresky.jpg",
+      "sourceMd5": "05c8325777aa95286a57370ca0dd9b65",
+      "processing": "official 8K tonemapped JPG; longitude seam repair and downsample only"
+    },
+    {
+      "role": "water panorama",
+      "asset": "Project-authored procedural underwater master",
+      "author": "Leon做了个 project",
+      "license": "project-owned; public distribution approved by Leon on 2026-08-24",
+      "url": null,
+      "localSource": "source-blender-water-cretaceous-8192.png",
+      "sourceSha256": "fb59f42b4bd9a6797eb94783b2cf51f9d09e9504b257b584cdfa0ec540b0ccc1",
+      "generator": "Blender 5.2 Cycles via render_water_panorama.py",
+      "processing": "native 8192x4096 render; no animal or child baked into the plate; baked lower surface/seabed bands replaced by a continuous volume-haze far field because live world-space meshes own those layers; longitude seam repair and downsample"
+    },
+    {
+      "role": "snow panorama",
+      "asset": "Passendorf Snow",
+      "author": "Grzegorz Wronkowski",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/passendorf_snow",
+      "localSource": "source-polyhaven-passendorf-snow.jpg",
+      "sourceMd5": "fcfbe3e857c95ae014b5c4752c174e5d",
+      "processing": "official 8K tonemapped JPG; photographed lower-hemisphere tracks are removed with an intentionally detail-free snow gradient before seam repair; the live PBR plane supplies all near ground"
+    },
+    {
+      "role": "land PBR",
+      "asset": "Forest Ground 03",
+      "author": "Rob Tuytel",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/forrest_ground_03",
+      "physicalWidthMeters": 2,
+      "sourceMd5": {
+        "diffuse": "605bfa541b0d406bcf88a16a8c82b821",
+        "normalGl": "104ecda19a7dce8f7b809b332cb41d37",
+        "roughness": "79937abe86f3ff582f48cd5388ad6aa2"
+      }
+    },
+    {
+      "role": "water PBR",
+      "asset": "Coast Sand 02",
+      "author": "Rob Tuytel",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/coast_sand_02",
+      "physicalWidthMeters": 15,
+      "sourceMd5": {
+        "diffuse": "0e757f90192c825c536cb8cfcaa137a0",
+        "normalGl": "ddff7abb6a5d1dc5ff5ff351f8949c87",
+        "roughness": "e748b4a52ba8db67c7d6c237e506dfb3"
+      }
+    },
+    {
+      "role": "snow PBR",
+      "asset": "Snow 02",
+      "author": "Rob Tuytel",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/snow_02",
+      "physicalWidthMeters": 2,
+      "sourceMd5": {
+        "diffuse": "5541e5601951b071691238ddc70632c0",
+        "normalGl": "ef128fbdf1b31932c792eb6472c84574",
+        "roughness": "8b9787b4c7b1d7390a4b4a1ae67728b1"
+      },
+      "selectionNote": "Snow 01 was rejected because its scan contains footprints and trail ruts."
+    }
+  ],
+  "variants": [
+    {
+      "theme": "land-cretaceous",
+      "animalId": "tyrannosaurus-rex",
+      "high": {
+        "file": "panorama-land-cretaceous-8192.webp",
+        "width": 8192,
+        "height": 4096,
+        "bytes": 11911768,
+        "sha256": "c8882af703fa5aa4081312a22492d4b5b86689d50778d4b96ad4e6239309ac38"
+      },
+      "medium": {
+        "file": "panorama-land-cretaceous-4096.webp",
+        "width": 4096,
+        "height": 2048,
+        "bytes": 2614886,
+        "sha256": "833caf0c60613c7db222e3a413dbf03a81f7e5051b47ab9dc5d45e1bdf5ea522"
+      },
+      "low": {
+        "file": "panorama-land-cretaceous-2048.webp",
+        "width": 2048,
+        "height": 1024,
+        "bytes": 596964,
+        "sha256": "c563773ec90b21070931ba5c306f5b7c7f78ba7af9f3628eaa4379efe5f5bcba"
+      }
+    },
+    {
+      "theme": "air-cretaceous",
+      "animalId": "pteranodon",
+      "high": {
+        "file": "panorama-air-cretaceous-8192.webp",
+        "width": 8192,
+        "height": 4096,
+        "bytes": 340338,
+        "sha256": "74f788e4fcbdf29a34ceead57ac734b5d75d1d008d4bd3855ae307d06b8067fb"
+      },
+      "medium": {
+        "file": "panorama-air-cretaceous-4096.webp",
+        "width": 4096,
+        "height": 2048,
+        "bytes": 114556,
+        "sha256": "123d46bbe08952e504ee3f25898c2d3e0fe9121b35078cdc61db92ae48b46d10"
+      },
+      "low": {
+        "file": "panorama-air-cretaceous-2048.webp",
+        "width": 2048,
+        "height": 1024,
+        "bytes": 40984,
+        "sha256": "4a8785f549ea2d6e5a4479d2c92ad666adc85cf259a5c063ab7fc5ec68205d8f"
+      }
+    },
+    {
+      "theme": "water-cretaceous",
+      "animalId": "mosasaurus",
+      "high": {
+        "file": "panorama-water-cretaceous-8192.webp",
+        "width": 8192,
+        "height": 4096,
+        "bytes": 93762,
+        "sha256": "cff038e8e9062df875b4b027e0022db46feef7f6b73fab84bf1059125d0cb7b8"
+      },
+      "medium": {
+        "file": "panorama-water-cretaceous-4096.webp",
+        "width": 4096,
+        "height": 2048,
+        "bytes": 24498,
+        "sha256": "92310d633ed8d2785b5b84287430aaf4cd1648e2d541a5f870d20a78a32bb536"
+      },
+      "low": {
+        "file": "panorama-water-cretaceous-2048.webp",
+        "width": 2048,
+        "height": 1024,
+        "bytes": 6060,
+        "sha256": "448055fd15f6a205866afcb36076b484e0a3e1bb6e71bc73960c06843774702e"
+      }
+    },
+    {
+      "theme": "snow-ice-age",
+      "animalId": "mammoth",
+      "high": {
+        "file": "panorama-snow-ice-age-8192.webp",
+        "width": 8192,
+        "height": 4096,
+        "bytes": 520462,
+        "sha256": "a020ea9f5b5b9fbbf9fbcb5ae2f9edb0a0bfab4cc91d03be4e46ad25e859fcc3"
+      },
+      "medium": {
+        "file": "panorama-snow-ice-age-4096.webp",
+        "width": 4096,
+        "height": 2048,
+        "bytes": 114290,
+        "sha256": "17ad4aee827fb04006d2db4b163a14c921c74e09607cee400b10e847e0efaeb7"
+      },
+      "low": {
+        "file": "panorama-snow-ice-age-2048.webp",
+        "width": 2048,
+        "height": 1024,
+        "bytes": 25326,
+        "sha256": "e18c098bf7abaeab267e9ad84df17337964b0356fd527cd45c937aa9b7cc78bb"
+      }
+    }
+  ],
+  "productionSliceVariants": [
+    {
+      "theme": "land-cretaceous-production-slice-v5",
+      "animalId": "tyrannosaurus-rex",
+      "medium": {
+        "file": "panorama-land-cretaceous-v5-farfield-4096.webp",
+        "width": 4096,
+        "height": 2048,
+        "bytes": 173622,
+        "sha256": "93fc7f50b19e727335c7760c0efdd489f1a8c37a9cf03adfe97012d54dc152a1"
+      },
+      "low": {
+        "file": "panorama-land-cretaceous-v5-farfield-2048.webp",
+        "width": 2048,
+        "height": 1024,
+        "bytes": 66480,
+        "sha256": "177dcfd8251b36572eb7bd512650f8c78ad3ed25a2add71f329a67f519964a7e"
+      }
+    }
+  ],
+  "surfaceSets": [
+    {
+      "theme": "land",
+      "physicalWidthMeters": 2,
+      "high": {
+        "albedo": {
+          "file": "surface-land-albedo-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 1713116,
+          "sha256": "af100caea512e3fdff9f8aa4e6f3c5bac65c6038cffeb95456b16964873189bd"
+        },
+        "normal": {
+          "file": "surface-land-normal-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 2671880,
+          "sha256": "5acc8f7462ac2a06827f479172f514401d22e066e9bb47a2725943a14a66eae9"
+        },
+        "roughness": {
+          "file": "surface-land-roughness-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 870140,
+          "sha256": "bbae365f01b1f85979b56aa6e414896abf610e0cb889ea56188d301b8571b65e"
+        }
+      },
+      "low": {
+        "albedo": {
+          "file": "surface-land-albedo-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 399812,
+          "sha256": "d04d9521ab8f8d8405645de751726105b30e18b6eab36fa516027d072f6ce2d2"
+        },
+        "normal": {
+          "file": "surface-land-normal-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 602754,
+          "sha256": "1d2cc58b4320b87890fa55cbe7b16be24da253050ef2a36f95e19d35884c2130"
+        },
+        "roughness": {
+          "file": "surface-land-roughness-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 221044,
+          "sha256": "5fcc873fcdfd1df33b331e62857fb56ae49ae77bb8d060d53a87d8d2122ad602"
+        }
+      }
+    },
+    {
+      "theme": "water",
+      "physicalWidthMeters": 15,
+      "high": {
+        "albedo": {
+          "file": "surface-water-albedo-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 857352,
+          "sha256": "63dcf0f150588ae0fd0e5602b288b6558921e5acda9ae926e426696763ee24f0"
+        },
+        "normal": {
+          "file": "surface-water-normal-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 1425876,
+          "sha256": "c3b592bada088a469fb0d3b2536b963088961da60542b93c02fb5b75a98977d2"
+        },
+        "roughness": {
+          "file": "surface-water-roughness-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 181722,
+          "sha256": "9e17a89b06a029406b5dd7dfec9d7b8b29b2cc519750bce4cbdc6e19d02546e3"
+        }
+      },
+      "low": {
+        "albedo": {
+          "file": "surface-water-albedo-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 257314,
+          "sha256": "19421ee03b4505b53db8ce9fabdb138af252bd4a5d6e79641c5166cc08312b38"
+        },
+        "normal": {
+          "file": "surface-water-normal-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 376482,
+          "sha256": "d9c662a4f154fe643d3c1e8f3c0bc2d368cc903a780dff41ef69aa8048276c16"
+        },
+        "roughness": {
+          "file": "surface-water-roughness-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 40400,
+          "sha256": "ada2137cb76b011e85d552b0dd40f2d81d5c6fe91a076f3125bc8a03cf91f670"
+        }
+      }
+    },
+    {
+      "theme": "snow",
+      "physicalWidthMeters": 2,
+      "high": {
+        "albedo": {
+          "file": "surface-snow-albedo-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 322394,
+          "sha256": "f8598be1461c2904ba5847891602721d4fce814f031c4555642d1f6e971b4ada"
+        },
+        "normal": {
+          "file": "surface-snow-normal-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 1713872,
+          "sha256": "6d3fcfa3551f6950eeb1fbc1a350e928cf11b99eaa7ac6612409238557cfce0b"
+        },
+        "roughness": {
+          "file": "surface-snow-roughness-2048.webp",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 62446,
+          "sha256": "9adae2133d67da1b7f2d4de0991b7137e4139bdf75f060169bc8a9fdc5ba1a52"
+        }
+      },
+      "low": {
+        "albedo": {
+          "file": "surface-snow-albedo-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 70270,
+          "sha256": "6637048a02d3908a44bc42f76ed17470a58a38153ad1027caffa5f8c8523c52b"
+        },
+        "normal": {
+          "file": "surface-snow-normal-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 377972,
+          "sha256": "bd7b5fdedf3c09fc947871256ab870b2aa9dd4160a346bf91c8d984f7d495ce6"
+        },
+        "roughness": {
+          "file": "surface-snow-roughness-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 13236,
+          "sha256": "b7275db7eebce05c9f2a703886d88f0508e7fc82cc412a895780a3af48382758"
+        }
+      }
+    }
+  ],
+  "runtimePlan": {
+    "firstUsableFrame": "4K panorama plus 2K PBR on capable desktop; 2K panorama plus 1K PBR on Save-Data/2g",
+    "optionalRefinement": "request 8K only after the first encounter frame and only when renderer.maxTextureSize >= 8192 and rendered pixel demand warrants it",
+    "decodedMemory": "8K RGBA+mipmaps is about 171 MiB; three 2K RGBA PBR maps with mipmaps are about 64 MiB",
+    "cacheBound": "dispose the 4K after a committed 8K swap; retain only the current inactive theme for same-page reopen; acquiring a different theme evicts the prior inactive textures",
+    "ground": "720 m subdivided world-space land/snow grid and water seabed; the subject floor stays level while low-frequency relief, irregular horizon feathers, translucent distance haze and sparse non-blocking terrain anchors break the stage-like horizontal cut; contact cues are feathered blobs, not physically projected shadows"
+  },
+  "openGates": [],
+  "approvedBy": "Leon",
+  "approvedOn": "2026-08-24",
+  "runtimeChecksums": "../SHA256SUMS"
+}

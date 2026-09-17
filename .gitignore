@@ -1,0 +1,45 @@
+node_modules/
+node_modules
+dist/
+dist-model-still/
+cloudflare-dist/
+coverage/
+playwright-report/
+test-results/
+.vite/
+.codex/
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+
+# Local handoff inputs from the private design workspace.
+# The Goal may read these files, but must only commit reviewed runtime outputs.
+.handoff/
+
+# Private project workspace kept beside the product code for local reference.
+# Keep assistant configuration private while publishing the reviewed,
+# project-specific contributor skill for onboarding new animals.
+.agents/*
+!.agents/skills/
+.agents/skills/*
+!.agents/skills/prehistoric-animal-onboarding/
+.wayfinder/
+assets/candidates/
+assets/review-generated
+docs/handoff/
+docs/research/
+docs/specification/
+prototypes/
+spikes/
+tools/*
+!tools/animal-onboarding/
+!tools/animal-onboarding/**
+tools/animal-onboarding/**/__pycache__/
+tools/animal-onboarding/**/*.pyc
+tools/animal-onboarding/node_modules/
+
+# Local environment files.
+.env
+.env.*
+!.env.example

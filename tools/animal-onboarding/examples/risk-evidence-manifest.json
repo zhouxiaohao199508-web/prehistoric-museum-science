@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "kind": "animal-risk-evidence-manifest",
+  "animalId": "example-animal",
+  "inspectionPath": "/absolute/repository/.handoff/animal-onboarding-runs/example-animal/asset-inspection.json",
+  "inspectionSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "routePath": "/absolute/repository/.handoff/animal-onboarding-runs/example-animal/asset-risk-route.json",
+  "routeSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "evidence": [
+    {
+      "id": "review-contract",
+      "artifacts": [
+        {
+          "path": "/absolute/repository/.handoff/animal-onboarding-runs/example-animal/review-contract.json",
+          "bytes": 1,
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    }
+  ]
+}

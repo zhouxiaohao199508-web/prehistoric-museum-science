@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 3,
+  "assetId": "scale-encounter-sky-ocean-horizon-production-review-v2",
+  "scene": "pteranodon-sky",
+  "status": "production-approved",
+  "productionApproved": true,
+  "leonApproved": true,
+  "publicDistributionDecision": "approved",
+  "runtimeIntegrated": true,
+  "defaultCandidate": true,
+  "generatedOn": "2026-08-17",
+  "leonApproval": {
+    "approvedOn": "2026-08-19",
+    "statement": "天空使用现有 D 方案",
+    "reviewAccess": "local-tailnet-4317",
+    "scope": "variant D sky environment as the local formal default, including the C cloud coverage with softened coherent lighting, rear-upper presentation, distant islands and existing narration",
+    "doesNotAuthorize": [
+      "branch merge",
+      "public deployment",
+      "real-device gate waiver"
+    ]
+  },
+  "finalBranchApproval": {
+    "approvedBy": "Leon",
+    "approvedOn": "2026-08-24",
+    "scope": "selected variant D environment, approved air-wingsuit Avatar packages, narration and public distribution in the submitted branch",
+    "authorizedAction": "push the branch and update its pull request",
+    "doesNotAuthorize": [
+      "branch merge",
+      "public deployment",
+      "real-device gate waiver"
+    ]
+  },
+  "latestOwnerRequestedRevision": {
+    "requestedOn": "2026-08-23",
+    "request": "Keep the softened distant islands visible in both landscape and portrait, with a portrait composition that follows the rotated stacked-subject camera axis.",
+    "runtimeRevision": "responsive-portrait-and-landscape-aerial-island-atlas-v8",
+    "aerialIslandCount": 6,
+    "portraitIslandCount": 6,
+    "responsiveLayoutCount": 2,
+    "presentation": "distant-phototextured-topographic-archipelago",
+    "maximumSeaWaveDisplacementMeters": 0.74,
+    "minimumStableCoreClearanceMeters": 0.84,
+    "nearestIslandCentreDistanceMeters": 27.46,
+    "furthestIslandCentreDistanceMeters": 40.25,
+    "atlasAnisotropy": 1,
+    "atlasBlurTapCount": 5,
+    "atlasSampleMipBias": 0.9,
+    "landscapeDistribution": "staggered-landscape-depth-bands",
+    "portraitDistribution": "portrait-sea-footprint-depth-bands",
+    "surfaceTexture": {
+      "path": "aerial-island-atlas-v1.webp",
+      "dimensions": [
+        1152,
+        768
+      ],
+      "format": "webp",
+      "mode": "built-in-imagegen",
+      "layout": "three-columns-by-two-rows-six-distinct-transparent-cutouts",
+      "sourceGeneratedImage": "exec-2debfbdd-b9e1-4af1-a8d3-d2f6fb28327c.png",
+      "sha256": "58a30f61f76d163a4289d1d1adc31d4c920db2763594588d90f3c9bb8ae69195",
+      "promptSummary": "Six distinct photoreal orthographic top-down prehistoric subtropical island cutouts arranged in a 3 by 2 transparent atlas, with irregular coastlines, coves, rocky shelves, dense primitive vegetation, exposed rock, diffuse lighting, and no people, animals, buildings, text or water background."
+    },
+    "visualReviewStatus": "approved-2026-08-24",
+    "landscapeHeadedBrowserReview": {
+      "reviewedOn": "2026-08-23",
+      "route": "/zh-CN/animals/rhamphorhynchus/",
+      "viewport": [
+        1280,
+        720
+      ],
+      "stabilityWindowSeconds": 15,
+      "result": "All six softened islands stayed visible without browser warnings, and their wide-screen composition occupied staggered upper, middle and lower depth bands instead of a single upper row."
+    },
+    "portraitFrustumContractReview": {
+      "reviewedOn": "2026-08-23",
+      "viewportAspect": 0.4621,
+      "referenceViewport": [
+        390,
+        844
+      ],
+      "overviewFieldOfViewDegrees": 29,
+      "result": "All six portrait island centres project inside the phone overview frustum, remain distributed across upper, middle and lower background bands, and the runtime switches layouts at the same 1.2 aspect breakpoint as the stacked subject camera."
+    },
+    "historicalBaseApprovalPreserved": true
+  },
+  "prototypeSources": [
+    "sky-production-review-2026-08-17-v2",
+    "sky-p2-8efb61bb682a",
+    "A remains the explicit review fallback"
+  ],
+  "mainIntegration": {
+    "buildId": "sky-production-review-2026-08-17-v2",
+    "baseRevision": "b6ec5b34973f1c7fa7e76a0fdc2144d60a0eea1b",
+    "generatorSha256": "62dde9a551b64287598808b66a2cde4dfdfe82aec5d3b9afc92e5d02c6a7e496",
+    "naturalnessRevision": "responsive-portrait-and-landscape-aerial-island-atlas-subject-fill-v11",
+    "naturalnessGate": "owner-approved-2026-08-24"
+  },
+  "sceneContract": {
+    "sourceContractRevision": "sky-ocean-horizon-production-review-v10",
+    "currentCalibrationSemantic": "clear-sky-low-cloud-responsive-portrait-landscape-softened-photoreal-aerial-island-atlas",
+    "units": "meters",
+    "upAxis": "+Y",
+    "referenceY": -60,
+    "subjectAltitudeBandMeters": [
+      58,
+      78
+    ],
+    "coastRendered": false,
+    "distantIslandSilhouettes": false,
+    "aerialIslandTerrainCount": 6,
+    "responsiveAerialIslandLayoutCount": 2,
+    "seaRenderedFromVariant": "B",
+    "cameraFarMeters": 240
+  },
+  "variants": {
+    "A": [
+      "subject",
+      "background-atmosphere"
+    ],
+    "B": [
+      "A",
+      "flight-volume",
+      "world-space-open-sea"
+    ],
+    "C": [
+      "B",
+      "near-air",
+      "mid-cloud",
+      "far-cloud"
+    ],
+    "D": [
+      "C",
+      "coherent-direction-space-radiance",
+      "radiance-derived-subject-ibl",
+      "softened-cloud-edge-treatment"
+    ]
+  },
+  "rendering": {
+    "toneMapping": "ACESFilmicToneMapping",
+    "toneMappingExposure": 1.1,
+    "background": "analytic seam-free atmospheric gradient with restrained procedural high-cloud structure",
+    "sea": "opaque 520 metre world-space procedural surface with distance haze, long swell and sky reflection",
+    "coast": "no foreground or enclosing coast; one active set of six reduced low-relief terrain landforms remains roughly 65 metres below the subjects and more than 65 metres away by slant distance, using a staggered landscape arrangement above the side-by-side camera footprint and a separate smaller portrait arrangement inside the rotated stacked-subject sea footprint; both layouts retain 64-segment coastlines, the same six photoreal top-down transparent island cutouts, five-tap mip-softened sampling, restrained distance haze, narrow submerged shore slopes and stable raised cores",
+    "subjectLighting": "warm authored sun, brighter hemispheric skylight, fixed rear-upper flight fill and restrained camera-relative subject fill",
+    "clouds": "eight non-billboard world-space cumulus and wisp clusters with radial multi-lobe geometry, height-band placement and cool-shadow/warm-light shading",
+    "cloudAlphaMode": "premultiplied-blend",
+    "cloudDepthWrite": false,
+    "cloudShadowCasting": false,
+    "alphaTextureCount": 0
+  },
+  "flightApproximation": {
+    "scope": "development-only fallback for a legacy standing Avatar; approved production packages already provide a prone wingsuit pose",
+    "enabledInProduction": false,
+    "enabledByDefaultOnlyWhenCandidateIsExplicitlyActive": false,
+    "disableQuery": "flight-approximation=0",
+    "pivot": "actual rendered Avatar bounds centre",
+    "modelGlbRigHashScaleMutation": false,
+    "formalFlightPose": true,
+    "replacementGate": "satisfied by the approved V4 air-wingsuit packages and Glide_Static clip"
+  },
+  "narration": {
+    "policy": "authored-flight-equipment",
+    "usesExistingReviewedTracks": true,
+    "visualOutfitProvidedByRuntimeAvatar": true,
+    "copyIntent": "The guide names the wingsuit during the full-body stage while the approved runtime Avatar visibly wears the helmeted wingsuit and parachute equipment."
+  },
+  "responsiveSubjects": {
+    "wide": "side-by-side",
+    "squarePortraitNarrow": "stacked",
+    "fittingSource": "current post-transform dynamic animal and Avatar bounds",
+    "subjectScaleSubstitutionAllowed": false,
+    "preEyeEntryStage": "full-body-showcase",
+    "flightEquipmentCamera": "rear-upper establishing and rear-upper full-body showcase with no side orbit"
+  },
+  "lockedInputs": {
+    "animalId": "pteranodon",
+    "animalModelSha256": "abcde65b2ea29c6ae86d8232a5e1a604b05099deb34cebfb30495aff53f61af1",
+    "displayedWingspanMeters": 7,
+    "avatarRigId": "child-base-v3-meshy-24",
+    "boyBaseSha256": "76eabc9cfa7c9d79b473f8998e449bbc874e292147b003969377ff719ec080d6",
+    "girlBaseSha256": "0ed1bdfa7b0108addd8d134d7b90657c136222e068511606160b53c213601716",
+    "outfitSafetyBounds": "reviewed-dynamic-bounds-v4",
+    "avatarOutfitAssets": [
+      {
+        "gender": "boy",
+        "file": "../../avatars/child-avatar-v4-boy-air-wingsuit-v01.glb",
+        "sha256": "b2d48dacde98091d48edfc3fb330fb5bfd0bdf6590986a3d30b2a4e5348b3e9b"
+      },
+      {
+        "gender": "girl",
+        "file": "../../avatars/child-avatar-v4-girl-air-wingsuit-v01.glb",
+        "sha256": "df8454c36e41ad0e94cc7906ba3b13daa7fffc8f5e75a4b0ee4ae9d4f054a1c4"
+      }
+    ]
+  },
+  "openGates": [],
+  "approvedBy": "Leon",
+  "approvedOn": "2026-08-24"
+}

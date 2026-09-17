@@ -1,0 +1,6 @@
+Derived review images
+
+Animal: 胄甲龙
+Method: deterministic crops from the accepted desktop composition and measured model bounds.
+Inputs: model/model.glb and backgrounds/landscape.webp
+Approved: Project owner on 2026-07-31

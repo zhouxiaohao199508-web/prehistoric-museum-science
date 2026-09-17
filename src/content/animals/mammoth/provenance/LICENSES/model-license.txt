@@ -1,0 +1,19 @@
+Model license record
+====================
+
+Asset: 3D High-poly Baby Woolly Mammoth
+Creator: SDPM Esare
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Source URL: https://sketchfab.com/3d-models/3d-high-poly-baby-woolly-mammoth-fce1c86ccedf47a5b9627098be6719d5
+Accessed: 2026-07-28
+
+Attribution:
+“3D High-poly Baby Woolly Mammoth” by SDPM Esare, CC BY 4.0;
+modified for the Prehistoric Animal Museum.
+
+The museum uses the upstream CC BY 4.0 source, not kenchoo's CC BY-NC-SA
+animated re-upload. Project changes include normalization, an 8-bone Blender
+armature with repaired neck weights, and an eight-second in-place head,
+tusk, and tail Idle. The source title is retained verbatim for attribution;
+the project-facing animal name is “猛犸象”.

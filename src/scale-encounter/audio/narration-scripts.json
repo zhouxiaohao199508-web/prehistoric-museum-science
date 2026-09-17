@@ -1,0 +1,246 @@
+{
+  "zh-CN": {
+    "stegosaurus": {
+      "intro": "小朋友，准备好了吗？背上小包，我们穿过树林，去寻找一只剑龙。它从头到尾有八米，你猜自己能到它身体的哪里？",
+      "transition": "脚步轻一点，剑龙就在前面。先看看它贴近地面的四条腿，再顺着背上的骨板一路看到尾巴。",
+      "arrival": "看，剑龙就在空地上。骨板像一排小山立在背上，尾巴尖还有四根锐刺。站到它旁边，才知道八米有多大！"
+    },
+    "pteranodon": {
+      "intro": "小朋友，准备好了吗？穿上飞行装备，我们飞回白垩纪的海岸上空，去寻找无齿翼龙。它的双翼展开足有七米，会有多宽呢？",
+      "transition": "把手臂张开，身体伸平，像小飞鸟一样向前滑。看，无齿翼龙从云边出现，正朝我们飞来。",
+      "arrival": "它飞到对面啦！两只大翅膀从左到右足有七米，像一架滑翔机掠过天空。快看看，你的双臂能占其中多少？"
+    },
+    "pachycephalosaurus": {
+      "intro": "小朋友，准备好了吗？背上小包，我们走进白垩纪的森林，去寻找肿头龙。它从嘴尖到尾巴有四米，你能认出它吗？",
+      "transition": "沿着空地轻轻往前走。肿头龙就在树丛后面，圆圆的头顶已经露出来了。",
+      "arrival": "找到它啦！肿头龙像戴着一顶厚厚的圆帽，身体后面还拖着尾巴。站到旁边看看，四米能排下几个你？"
+    },
+    "ichthyosaur": {
+      "intro": "小朋友，准备好了吗？戴好潜水装备，我们潜进远古海洋，去寻找鱼龙。它从鼻尖到尾巴有四米，会从哪里游来呢？",
+      "transition": "面镜、气瓶和脚蹼都准备好了。我们轻轻摆动脚蹼，留在安全的位置。看，鱼龙正摆着尾巴游过来。",
+      "arrival": "鱼龙游到对面啦！尖尖的嘴、像水滴一样的身体，还有身体两侧的四只鳍，都能看清了。四米差不多能排下两个大人！"
+    },
+    "tyrannosaurus-rex": {
+      "intro": "小朋友，准备好了吗？背上小包，我们走进白垩纪的森林，去寻找霸王龙。它从鼻尖到尾巴有十二米，站在它面前会是什么感觉？",
+      "transition": "脚步放轻一点，霸王龙就在前面。先找找它的大脚，再顺着两条粗壮的腿慢慢往上看。",
+      "arrival": "哇，霸王龙就在眼前！两条腿像大柱子，脑袋却在很高的地方。快抬头看看，它的大嘴离地面有多远？"
+    },
+    "rhamphorhynchus": {
+      "intro": "小朋友，准备好了吗？穿上飞行装备，我们飞回侏罗纪的天空，去寻找喙嘴翼龙。它的双翼展开有一米半，会从哪片云边出现呢？",
+      "transition": "把双臂展开，身体伸平，慢慢向前滑。喙嘴翼龙迎面飞来，尾巴末端的小帆已经看得见了。",
+      "arrival": "看，它正在对面滑翔！两片皮膜翅膀从左到右有一米半，细细的尾巴一直伸到身后。它和你谁更宽呢？"
+    },
+    "triceratops": {
+      "intro": "小朋友，准备好了吗？背上小包，我们走进白垩纪的森林，去寻找三角龙。它从嘴尖到尾巴有八米半，像一辆大巴那么大。",
+      "transition": "脚步放轻，三角龙就在空地前面。先看它稳稳站住的四条腿，再找找头上的三只角。",
+      "arrival": "看，三角龙就在对面！它的颈盾像一面大盾牌，两根眉角向前伸出。你站在旁边，才到它身体下面。"
+    },
+    "apatosaurus": {
+      "intro": "小朋友，准备好了吗？我们来到侏罗纪的森林，去寻找迷惑龙。它从头到尾有二十三米，我们先退到空地边，看看能不能一眼找到脑袋和尾巴。",
+      "transition": "迷惑龙就在前面。先找四条柱子一样的腿，再抬头找伸到树梢旁的脖子，最后看看远远甩在身后的尾巴。",
+      "arrival": "看，你正站在迷惑龙的脑袋前面！它的身体横过整片空地，从头到尾能排下十几个小朋友。它的尾巴藏到哪里去了？"
+    },
+    "plesiosaurus": {
+      "intro": "小朋友，准备好了吗？戴好潜水装备，我们潜进远古海洋，去寻找蛇颈龙。它从头到尾有五米，你能找到它的四只鳍吗？",
+      "transition": "我们轻轻摆动脚蹼，停在安全的位置。蛇颈龙正从对面游来，它的脖子伸在前面，四只鳍一起划水。",
+      "arrival": "看，蛇颈龙就在对面！小小的脑袋、细细的脖子，还有像小船一样的身体，全都出现了。它游起来真像在水里飞翔！"
+    },
+    "gigantoraptor": {
+      "intro": "小朋友，准备好了吗？背上小包，我们走进白垩纪的森林，去寻找巨盗龙。它从嘴尖到尾巴有八米，比你想象中大得多。",
+      "transition": "慢慢往前走，巨盗龙就在树丛后面。先看它用两条腿稳稳站住，再抬头寻找它的脑袋。",
+      "arrival": "找到它啦！巨盗龙的身体和尾巴向前后伸开，足足有八米。你站在它面前，需要把头抬多高？"
+    },
+    "tupandactylus": {
+      "intro": "小朋友，准备好了吗？穿上飞行装备，我们飞回白垩纪的天空，去寻找古神翼龙。它的双翼展开有二点七米，头上还顶着醒目的大冠饰。",
+      "transition": "把双臂展开，身体伸平，慢慢向前滑。古神翼龙从云边转过身，正朝我们飞来。",
+      "arrival": "看，它正在对面滑翔！双翼比小朋友张开的手臂宽得多，大冠饰高高立在头顶。你先看到了翅膀，还是冠饰？"
+    },
+    "mammoth": {
+      "intro": "小朋友，准备好了吗？我们要去冰河时代的雪原寻找猛犸象。它的肩膀离雪地有三米多，你站到旁边会有多高呢？",
+      "transition": "护目镜戴好了，手套也戴好了。厚外套、雪裤和雪地靴全都准备好了。踩着雪出发吧，猛犸象就在前面！",
+      "arrival": "抬头看，猛犸象正站在对面。四条粗腿稳稳踩在雪地上，厚厚的毛盖住身体，两根弯弯的象牙从脸旁伸出来！"
+    },
+    "megalodon": {
+      "intro": "小朋友，准备好了吗？戴好潜水装备，我们潜进远古海洋，去寻找巨齿鲨。它有十六米长，正从蓝色海水里向我们游来。先找找那片大大的背鳍吧。",
+      "transition": "面镜、气瓶和脚蹼都准备好了。我们留在安全的位置，静静看着前方。大背鳍划过海水，巨齿鲨摆着尾巴游来。",
+      "arrival": "看，它从对面游过来啦！宽宽的脑袋、大大的背鳍，还有有力的尾巴，全都能看清。十六米，比一辆大巴还要长！"
+    },
+    "maiasaura": {
+      "intro": "小朋友，准备好了吗？背上小包，我们走进白垩纪的森林，去寻找慈母龙。它从嘴尖到尾巴有八米，会躲在哪片树丛后面呢？",
+      "transition": "慢慢走近空地，慈母龙就在前面。先看它稳稳踩地的四肢，再顺着背部一路看到尾巴。",
+      "arrival": "找到它啦！慈母龙像一辆大巴那么大，扁扁的嘴就在脑袋前面。你站在旁边，只占小小的一块地方。"
+    },
+    "sauropelta": {
+      "intro": "小朋友，准备好了吗？背上小包，我们走进白垩纪的森林，去寻找胄甲龙。它从头到尾有五点五米，背上像穿着一件铠甲。",
+      "transition": "脚步放轻，胄甲龙就在前面的空地上。先找颈部和肩部的尖刺，再看看背上一排排结实的护甲。",
+      "arrival": "看，胄甲龙就在对面！它的身体低低的，护甲从脖子一直铺到背上。站到旁边看看，它和你谁更高？"
+    },
+    "meganeura": {
+      "intro": "小朋友，准备好了吗？我们走进远古森林里的开阔地，去寻找巨脉蜻蜓。它的双翼展开有七十厘米，你能在树叶间发现它吗？",
+      "transition": "背好小包，站在原地仔细看。听，翅膀在轻轻扇动！巨脉蜻蜓正飞到和你眼睛差不多高的地方。",
+      "arrival": "看，四片翅膀在眼前闪动！从左边翼尖到右边翼尖有七十厘米，差不多和一张小桌子一样宽。它真是一只大昆虫！"
+    },
+    "dilophosaurus": {
+      "intro": "小朋友，准备好了吗？背上小包，我们走进侏罗纪的森林，去寻找双冠龙。它从嘴尖到尾巴有六点五米，头顶还有两片特别的冠。",
+      "transition": "慢慢向前走，双冠龙就在树丛后面。先看它站立的双腿，再抬头找找并排的两片冠。",
+      "arrival": "看，双冠龙就在对面！尾巴一直伸到身后，两片冠像两把竖起来的小扇子。你一眼就能认出它吗？"
+    },
+    "mosasaurus": {
+      "intro": "小朋友，准备好了吗？戴好潜水装备，我们潜进白垩纪的海洋，去寻找沧龙。它从鼻尖到尾巴有十二米，游过来会有多大呢？",
+      "transition": "戴好面镜，背好气瓶，轻轻摆动脚蹼。水面在上方发亮，沧龙正从蓝色海水里朝我们游来。",
+      "arrival": "快看上面，沧龙从斜上方游过去了！我们能看见它的肚子、身体两侧的四只鳍，还有甩在后面的尾巴。十二米真大呀！"
+    },
+    "spinosaurus": {
+      "intro": "小朋友，准备好了吗？背上探险包，我们走进白垩纪的森林，去寻找十四米多长的棘龙。高高的背帆会不会先从树影后面露出来？",
+      "transition": "沿着林间空地慢慢向前走。看，棘龙的长嘴、相对较短的后腿和像船帆一样的高背一点点出现啦。",
+      "arrival": "它来到对面啦！从鼻尖到尾巴大约十四米半，差不多能排下三辆小汽车。长长的嘴和高高的背帆，你先发现了哪一样？"
+    },
+    "lystrosaurus": {
+      "intro": "小朋友，准备好了吗？我们走进二叠纪末到三叠纪初的河漫滩，去找一只一米半长的水龙兽。它嘴边的两枚小獠牙，会不会先被你看到？",
+      "transition": "脚步放轻一点，沿着干燥泥地往前走。看，水龙兽的短脸、像喙一样的嘴和四条敦实的腿出现啦。",
+      "arrival": "它来到对面啦！一米半差不多和一位大人的身高一样。水龙兽的家族挺过了地球上最大的一次大灭绝，你能找到它的喙和两枚獠牙吗？"
+    },
+    "baryonyx": {
+      "intro": "小朋友，准备好了吗？我们走进白垩纪的森林，去寻找将近九米长的重爪龙。它手上那枚特别大的爪子，会藏在哪片树影后面？",
+      "transition": "沿着林间小路慢慢向前走。先找细长的嘴，再看看它的两只手。重爪龙的大爪子露出来啦。",
+      "arrival": "它来到对面啦！从鼻尖到尾巴将近九米，差不多能排下两辆小汽车。长嘴和大爪子都很特别，你觉得它们会怎样帮助重爪龙寻找食物？"
+    },
+    "archaeopteryx": {
+      "intro": "小朋友，准备好了吗？背上探险包，我们走进侏罗纪的森林，去寻找始祖鸟。它从嘴尖到尾巴大约半米，你能发现站在低矮倒木上的它吗？",
+      "transition": "脚步放轻一点，沿着林地慢慢走近倒木。看，始祖鸟正站在上面，羽毛、翅膀上的小爪子和长尾巴都看清楚啦。",
+      "arrival": "我们来到倒木旁啦！始祖鸟从嘴尖到尾巴大约半米。看看它的羽毛、翅膀上的小爪子和长长的尾巴，你先发现了哪一样？"
+    },
+    "carnotaurus": {
+      "intro": "小朋友，准备好了吗？背上小包，我们走进白垩纪的森林，去寻找八米长的食肉牛龙。它的短脸和小得出奇的前肢，你会先发现哪一样？",
+      "transition": "脚步放轻一点。先找稳稳踩在地上的两只大脚，再沿着粗壮的腿往上看。短脸、眼睛上方的小角，还有小小的前肢，都出现啦。",
+      "arrival": "哇，它从鼻尖到尾巴大约八米，差不多能排下两辆小汽车！身体这么大，前肢却小小的，这个反差是不是很有趣？你想先看哪里？"
+    },
+    "anomalocaris": {
+      "intro": "小朋友，准备好了吗？戴好潜水装备，我们潜进五亿多年前的寒武纪海洋，去寻找六十厘米长的奇虾。它会怎样摆动身体两侧的游泳叶，在海水里向前滑行呢？",
+      "transition": "轻轻摆动脚蹼，留在安全的位置。看，奇虾两边的游泳叶像波浪一样一片接一片地摆动，两只带刺的捕食附肢也伸向前方。",
+      "arrival": "它游到对面啦！从头到尾大约六十厘米，在寒武纪海洋里已经是醒目的大动物。圆圆的嘴藏在身体下面，你能找到吗？"
+    }
+  },
+  "en": {
+    "stegosaurus": {
+      "intro": "Ready, explorer? Pack your day bag and follow the forest path back in search of Stegosaurus. It is eight metres from head to tail. Where will you reach beside it?",
+      "transition": "Step softly. Stegosaurus is just ahead. Find its four low legs, then follow the row of back plates all the way to the tail.",
+      "arrival": "There it is in the clearing! Plates rise like little hills along its back, and four sharp spikes guard its tail. Now we can feel how big eight metres really is."
+    },
+    "pteranodon": {
+      "intro": "Ready, explorer? Put on your flying gear and soar over a Cretaceous coast in search of Pteranodon. Its open wings stretch seven metres across.",
+      "transition": "Spread your arms, hold your body straight, and glide like a little bird. Look, Pteranodon has appeared beside the clouds and is flying toward us.",
+      "arrival": "It is right across from us! Those great wings stretch seven metres from side to side, like a glider sweeping through the sky. How much of them can your arms match?"
+    },
+    "pachycephalosaurus": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Cretaceous forest in search of Pachycephalosaurus. It is four metres from beak to tail. Can you spot it?",
+      "transition": "Walk gently toward the clearing. Pachycephalosaurus is behind the bushes, and the top of its round head is already peeking out.",
+      "arrival": "We found it! Pachycephalosaurus looks as if it is wearing a thick, round helmet. Stand beside it and see how many of you could fit into four metres."
+    },
+    "ichthyosaur": {
+      "intro": "Ready, explorer? Put on your diving gear and descend into an ancient sea in search of Ichthyosaur. It is four metres from nose to tail. Where will it appear?",
+      "transition": "Mask and fins are ready. Stay in our safe spot. Look, Ichthyosaur is swimming toward us.",
+      "arrival": "Ichthyosaur is right across from us! We can see its pointed snout, teardrop-shaped body, and four flippers. Four metres is about the height of two grown-ups lying end to end."
+    },
+    "tyrannosaurus-rex": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Cretaceous forest in search of Tyrannosaurus rex. It is twelve metres from nose to tail. What will it feel like to meet it?",
+      "transition": "Step softly. Tyrannosaurus rex is just ahead. Find its enormous feet first, then follow the two powerful legs upward.",
+      "arrival": "Wow, it is right in front of us! Its legs look like pillars, but its head is still far above. Look up and see how high that enormous mouth is."
+    },
+    "rhamphorhynchus": {
+      "intro": "Ready, explorer? Put on your flying gear and soar into the Jurassic sky in search of Rhamphorhynchus. Its wings stretch one and a half metres across.",
+      "transition": "Spread your arms and glide forward. Rhamphorhynchus is flying toward us, with its tail vane already in view.",
+      "arrival": "Look, it is gliding right across from us! Its membrane wings span one and a half metres, and its slender tail reaches behind. Which of you is wider?"
+    },
+    "triceratops": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Cretaceous forest in search of Triceratops. It is eight and a half metres from beak to tail, about as big as a bus.",
+      "transition": "Step softly. Triceratops is in the clearing ahead. Find its four sturdy legs, then look for the three horns on its head.",
+      "arrival": "There it is! Its frill looks like a giant shield, and two brow horns point forward. Beside Triceratops, you reach only the lower part of its body."
+    },
+    "apatosaurus": {
+      "intro": "Ready, explorer? We have reached a Jurassic forest to search for Apatosaurus. It is twenty-three metres from head to tail, so let’s step to the edge of the clearing and try to find both ends.",
+      "transition": "Apatosaurus is just ahead. Find its four pillar-like legs, look up along the neck beside the treetops, and then search for the tail far behind.",
+      "arrival": "Look, you are standing across from its head! Apatosaurus stretches across the whole clearing, with room for many young explorers from head to tail. Where is its tail hiding?"
+    },
+    "plesiosaurus": {
+      "intro": "Ready, explorer? Put on your diving gear and descend into an ancient sea in search of Plesiosaur. It is five metres from head to tail. Can you find all four flippers?",
+      "transition": "Kick your fins gently and stay in our safe spot. Plesiosaur is swimming toward us with its neck out front and all four flippers sweeping through the water.",
+      "arrival": "Look, Plesiosaur is right across from us! Its small head, slender neck, and boat-shaped body are all in view. It seems to fly through the water."
+    },
+    "gigantoraptor": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Cretaceous forest in search of Gigantoraptor. It is eight metres from beak to tail, far bigger than you might expect.",
+      "transition": "Walk forward slowly. Gigantoraptor is behind the trees. Find the two legs holding it up, then look higher for its head.",
+      "arrival": "We found it! Gigantoraptor stretches eight metres from its body to the end of its tail. How high must you look to see its face?"
+    },
+    "tupandactylus": {
+      "intro": "Ready, explorer? Put on your flying gear and soar into the Cretaceous sky in search of Tupandactylus. Its wings stretch 2.7 metres across, and a great crest rises above its head.",
+      "transition": "Spread your arms, hold your body straight, and glide forward. Tupandactylus is turning from the clouds and flying toward us.",
+      "arrival": "Look, it is gliding right across from us! Its wings are much wider than a young child’s arms, and the great crest stands high above. What did you spot first?"
+    },
+    "mammoth": {
+      "intro": "Ready, explorer? We are going to an Ice Age snowfield in search of a woolly mammoth. Its shoulders rise more than three metres above the snow. How high will you reach beside it?",
+      "transition": "Goggles and gloves are on. Our thick coats, snow trousers, and boots are ready too. Step into the snow. The mammoth is just ahead.",
+      "arrival": "Look up, the mammoth is right across from us! Four thick legs stand firmly in the snow, shaggy fur covers its body, and two curved tusks reach out beside its face."
+    },
+    "megalodon": {
+      "intro": "Ready, explorer? Put on your diving gear and descend into an ancient sea in search of Megalodon. It is sixteen metres long and is already swimming toward us through the blue water. Can you spot its great dorsal fin?",
+      "transition": "Mask, tank and fins are ready. We stay safely back and watch. A dorsal fin cuts through the water as Megalodon swims closer.",
+      "arrival": "Look, it is swimming past us! We can see its broad head, tall dorsal fin and powerful tail. Sixteen metres is longer than a large bus."
+    },
+    "maiasaura": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Cretaceous forest in search of Maiasaura. It is eight metres from beak to tail. Which bushes could hide it?",
+      "transition": "Walk slowly toward the clearing. Maiasaura is just ahead. Find its four limbs on the ground, then follow its back all the way to the tail.",
+      "arrival": "We found it! Maiasaura is about as big as a bus, with a broad, flat beak at the front. Beside it, a young explorer takes up only a tiny space."
+    },
+    "sauropelta": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Cretaceous forest in search of Sauropelta. It is five and a half metres from head to tail, with armour across its back.",
+      "transition": "Step softly. Sauropelta is in the clearing ahead. Find the spikes on its neck and shoulders, then look at the rows of armour across its back.",
+      "arrival": "There it is! Sauropelta keeps its body low, with armour running from its neck across its back. Stand beside it and see which of you is taller."
+    },
+    "meganeura": {
+      "intro": "Ready, explorer? Enter an open patch of ancient forest in search of Meganeura. Its wings stretch seventy centimetres across. Can you spot it between the leaves?",
+      "transition": "Keep your day bag on and stand still. Listen, wings are fluttering softly. Meganeura is flying up to the height of your eyes.",
+      "arrival": "Look at those four flashing wings! They span seventy centimetres from tip to tip, about as wide as a small table. What a giant insect."
+    },
+    "dilophosaurus": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Jurassic forest in search of Dilophosaurus. It is six and a half metres from nose to tail, with two special crests on its head.",
+      "transition": "Walk forward slowly. Dilophosaurus is behind the trees. Find the two legs holding it up, then look for the pair of crests above.",
+      "arrival": "There it is across from us! Its tail reaches behind, and the two crests look like little fans standing on its head. Can you recognise it at a glance?"
+    },
+    "mosasaurus": {
+      "intro": "Ready, explorer? Put on your diving gear and descend into a Cretaceous sea in search of Mosasaurus. It is twelve metres from nose to tail. How big will it look swimming past?",
+      "transition": "Put on your mask and tank, then kick your fins gently. The surface shines above us as Mosasaurus swims out of the blue water.",
+      "arrival": "Look up, Mosasaurus is gliding past above us! We can see its belly, four flippers, and the tail sweeping behind. Twelve metres is enormous."
+    },
+    "spinosaurus": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Cretaceous forest in search of a Spinosaurus more than fourteen metres long. Will its tall sail appear from behind the trees first?",
+      "transition": "Walk slowly through the forest clearing. Look! Its long snout, relatively short hind legs, and sail-like back are appearing.",
+      "arrival": "It has reached the other side! Fourteen and a half metres is about as long as three small cars. Which did you spot first, the long snout or the tall sail?"
+    },
+    "lystrosaurus": {
+      "intro": "Ready, explorer? Let’s visit a floodplain from the end of the Permian and start of the Triassic in search of a Lystrosaurus about one and a half metres long. Will you spot its two little tusks first?",
+      "transition": "Step softly along the dry mud. Look! Its short face, beak-like mouth, and four sturdy legs are appearing.",
+      "arrival": "It has reached the other side! One and a half metres is about as tall as a grown-up. Its relatives survived Earth’s biggest mass extinction. Can you find its beak and two tusks?"
+    },
+    "baryonyx": {
+      "intro": "Ready, explorer? Let’s enter a Cretaceous forest in search of Baryonyx, nearly nine metres long. Where might its enormous hand claw be hiding?",
+      "transition": "Walk slowly along the forest path. Find the long snout, then look at its two hands. There is Baryonyx’s great claw!",
+      "arrival": "It has reached the other side! At nearly nine metres from nose to tail, it is about as long as two small cars. Its long snout and giant claw are both unusual. How might each one have helped Baryonyx find food?"
+    },
+    "archaeopteryx": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Jurassic forest in search of Archaeopteryx. It is about half a metre from beak to tail. Can you spot it standing on a low fallen log?",
+      "transition": "Step quietly through the forest and move closer to the fallen log. Look! Archaeopteryx is standing on top, and we can see its feathers, tiny wing claws, and long tail.",
+      "arrival": "We have reached the fallen log! Archaeopteryx is about half a metre from beak to tail. Look at its feathers, tiny wing claws, and long tail. What did you spot first?"
+    },
+    "carnotaurus": {
+      "intro": "Ready, explorer? Pack your day bag and enter a Cretaceous forest in search of an eight-metre Carnotaurus. Will you notice its short face or its surprisingly tiny arms first?",
+      "transition": "Step softly. Find the two huge feet planted on the ground, then follow the powerful legs upward. There are its short face, small horns above the eyes, and tiny arms.",
+      "arrival": "Wow! From nose to tail it is about as long as two small cars parked end to end. Such a big body with such tiny arms is a funny contrast. Which part would you inspect first?"
+    },
+    "anomalocaris": {
+      "intro": "Ready, explorer? Put on your diving gear and descend into a Cambrian sea more than five hundred million years ago. We are looking for an Anomalocaris about sixty centimetres long. How will it ripple the swimming flaps along its sides to glide forward?",
+      "transition": "Kick your fins gently and stay in our safe spot. Look! The swimming flaps ripple one after another, while two spiny grasping limbs reach forward.",
+      "arrival": "It is swimming right across from us! At about sixty centimetres from head to tail, Anomalocaris was a striking animal in the Cambrian sea. Can you find its round mouth underneath?"
+    }
+  }
+}

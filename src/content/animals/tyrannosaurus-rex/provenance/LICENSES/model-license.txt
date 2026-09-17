@@ -1,0 +1,22 @@
+Model license record
+====================
+
+Asset: Tyrant King - Tyrannosaurus
+Creator: Marcel Schanz
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Source URL: https://sketchfab.com/3d-models/tyrant-king-tyrannosaurus-6465a297fa784598adc49f6e0042d449
+Accessed: 2026-07-28
+
+Attribution:
+“Tyrant King - Tyrannosaurus” by Marcel Schanz, CC BY 4.0;
+modified for the Prehistoric Animal Museum.
+
+Project changes include normalization, a project-authored Body base-colour
+midtone lift, a 13-bone Blender armature, deterministic skin weights with
+repaired foreclaw membership, integrated lower-jaw skin and mouth-lining
+weights, matched hip seam rings with upper-leg blending, and an eight-second
+in-place Idle with visible head, arm, tail, and controlled lower-jaw biting
+motion.
+The source title is retained verbatim for attribution; the project-facing
+animal name is “霸王龙”.

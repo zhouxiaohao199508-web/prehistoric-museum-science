@@ -1,0 +1,11 @@
+{
+  "name": "@prehistoric-museum/animal-onboarding",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cli": "node --import tsx src/cli.ts",
+    "test": "node --import tsx ../../node_modules/vitest/vitest.mjs run --config vitest.config.ts",
+    "typecheck": "../../node_modules/.bin/tsc -p tsconfig.json --pretty false"
+  }
+}

@@ -1,0 +1,19 @@
+Poster and thumbnail derivation record
+======================================
+
+Generated: 2026-07-29
+Thumbnail recomposed: 2026-08-10
+
+The poster is a browser-rendered presentation of the accepted Gigantoraptor
+model over its new Gobi alluvial plain. The 1440 x 900 production application
+was captured with reduced motion, then cropped at x=460,y=120 to a 960 x 540
+poster without text or controls.
+
+The 320 x 320 collection thumbnail was recomposed from the central square of
+backgrounds/landscape.webp and the transparent poster silhouette. The complete
+258 x 201 silhouette is placed at x=31,y=59 so the head, feet, and tail remain
+visible with balanced side margins.
+
+The model attribution and CC BY 4.0 terms in model-license.txt continue to
+apply to both images. The background was generated specifically for this
+project; its generation record is retained in background-generation.txt.

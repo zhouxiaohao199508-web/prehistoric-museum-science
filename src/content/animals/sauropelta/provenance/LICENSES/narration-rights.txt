@@ -1,0 +1,30 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Language: Chinese
+Seed: 20260726
+Generated: 2026-07-31
+Runtime bytes: 134445
+Runtime SHA-256: baee6b0e3d30264dab55b2dda1396715ed3757281feab3ee19106b98f98bdc28
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-07-31
+
+Script: 这是胄甲龙，一种生活在早白垩世北美洲的植食性甲龙类恐龙。看看它背上的骨质护甲和肩部的大刺，像不像穿着一件结实的防护外套？
+
+English narration approval
+
+Locale: en
+Speaker: Serena
+Language: English
+Generated: 2026-08-07
+Runtime bytes: 162045
+Runtime SHA-256: 5eb570b5695afb2be679d922931c9311c17328442af711d8500c1339a769c78d
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-07
+
+Script: This is Sauropelta, a plant-eating armoured dinosaur from Early Cretaceous North America. Look at the bony armour on its back and the big spikes by its shoulders. Does it look as though it is wearing a strong protective coat?

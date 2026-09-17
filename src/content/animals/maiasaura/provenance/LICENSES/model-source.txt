@@ -1,0 +1,21 @@
+Maiasaura model source and modifications
+=========================================
+
+Direct source:
+https://sketchfab.com/3d-models/maiasaura-with-rig-3da9f211ae304bd0afd1d15a290eabbd
+
+Creator: Dino Dan
+License: CC BY 4.0
+Original downloaded GLB: 2,290,700 bytes
+Original SHA-256:
+d9d33b82d3dbfb2b813dcd09f63644bae7d28523e16a0ae8d867638a84a1dfa5
+
+The project retained the 87-bone rig, normalized and repacked the GLB,
+replaced the cyan-orange material with a project-authored warm brown and pale
+underside treatment, strengthened irregular skin detail, and authored an
+eight-second in-place Idle with visible torso, head, neck, forelimb, and
+full-tail motion while keeping four-foot contact stable.
+
+Published runtime GLB: 2,379,688 bytes
+Published SHA-256:
+160336c4d22f9ff8ea3b2885664862817dab28da21a10db390c46ec663fc1e1b

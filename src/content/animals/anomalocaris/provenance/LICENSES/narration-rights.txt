@@ -1,0 +1,26 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Seed: 20260726
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-09-01
+
+Chinese narration
+
+Language: Chinese
+Generated: 2026-08-29
+Runtime bytes: 108525
+Runtime SHA-256: a493f6f7e3eda0d5e09698527178a42f8fa6ff14f885c6142d65ab641cbaed99
+Script: 这是奇虾，一种生活在寒武纪海洋里的游泳猎手。看看它两侧一排排的游泳叶、柄眼和前方的捕食附肢，哪一部分最特别？
+
+English narration
+
+Language: English
+Generated: 2026-08-29
+Runtime bytes: 130365
+Runtime SHA-256: 4aeade799e623ad6063decad6056639a0734098b23b28ba9b7d6e9565eb7dd0e
+Script: This is Anomalocaris, a swimming hunter from the Cambrian seas. Look at its rows of swimming flaps, stalked eyes and frontal grasping appendages. Which part looks most unusual?

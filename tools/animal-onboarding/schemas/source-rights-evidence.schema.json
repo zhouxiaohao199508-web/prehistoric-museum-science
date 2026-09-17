@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://leon-made-this.local/schemas/source-rights-evidence.schema.json",
+  "title": "Source rights evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "kind", "animalId", "source"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "kind": { "const": "source-rights-evidence" },
+    "animalId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "author",
+        "pageUrl",
+        "licenseId",
+        "licenseName",
+        "licenseUrl",
+        "accessedOn",
+        "directSourceVerified",
+        "downloadAllowed",
+        "modificationAllowed",
+        "redistributionAllowed",
+        "modelSha256"
+      ],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "author": { "type": "string", "minLength": 1 },
+        "pageUrl": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "licenseId": { "enum": ["CC0-1.0", "CC-BY-4.0"] },
+        "licenseName": { "type": "string", "minLength": 1 },
+        "licenseUrl": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "accessedOn": { "type": "string", "format": "date" },
+        "directSourceVerified": { "const": true },
+        "downloadAllowed": { "const": true },
+        "modificationAllowed": { "const": true },
+        "redistributionAllowed": { "const": true },
+        "modelSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    }
+  }
+}

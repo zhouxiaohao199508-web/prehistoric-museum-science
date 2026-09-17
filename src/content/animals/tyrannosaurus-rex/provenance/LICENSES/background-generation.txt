@@ -1,0 +1,41 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-08-09
+Use: project-specific responsive museum backgrounds
+
+Prompt direction:
+Generate a bright, premium semi-realistic children's natural-history
+illustration of an empty late-Maastrichtian Hell Creek riverbank woodland. The
+approved Stegosaurus backgrounds are the composition, ground-height, framing,
+and child-friendly tonal reference; the transparent Tyrannosaurus previews are
+used only to match the warm rust-brown model material and scale. Layer
+broadleaf trees, a few tall swamp conifers, ferns, shrubs, and wetland plants
+around the sides and distant background while preserving a wide central stage.
+
+In landscape, place the vegetation-to-ground boundary at 43-46%, begin the
+continuous ground plane by 46%, and leave the 52-65% foot band unobstructed. In
+portrait, place the boundary at 42-46%, begin continuous ground by 46%, and
+leave the 53-68% centred foot band unobstructed. Use pale blue cloud-filtered
+daylight, fresh sage and olive vegetation, and warm neutral brown-taupe ground.
+
+Explicitly avoid a low horizon, plants beneath the feet, dark or gloomy forest
+lighting, top spotlights, parallel sunbeams, god rays, baked-in animal shadows,
+platforms, roads, tracks, animals, people, text, UI, logos, watermarks,
+all-over cracks, pebble carpets, dense dots, pits, holes, honeycomb, and other
+repeated or trypophobia-triggering ground texture.
+
+The final 16:9 and 9:16 images were generated as separate compositions.
+
+Landscape source PNG:
+- bytes: 2969995
+- SHA-256: bd34865c23d3eae3ea613bd53be3994582afe9df42e44d245a3e4423049e6d95
+
+Portrait source PNG:
+- bytes: 2788568
+- SHA-256: 120421c8eaf21622cd3437f6542fe98cc7af54d25d6676cf78a91bd841c9b9c0
+
+The runtime copies were resized to 1672 x 941 and 941 x 1672 and converted to
+WebP at quality 82 with metadata removed. Public release remains subject to the
+repository owner's final rights review.

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "animalId": "example-animal",
+  "inspectionId": "example-animal-source-v1",
+  "sourcePackage": {
+    "modelPresent": true,
+    "directSourceVerified": true,
+    "modificationAllowed": true,
+    "redistributionAllowed": true,
+    "primaryFormat": "glb",
+    "runtimeReadyGlb": true,
+    "editableSource": true,
+    "texturesComplete": true,
+    "topology": "verified-clean",
+    "semanticParts": "complete",
+    "rig": "verified",
+    "skinWeights": "verified",
+    "animations": "verified",
+    "transparency": "none",
+    "evidencePaths": [
+      ".handoff/animal-onboarding-runs/example-animal/source-record.json"
+    ]
+  },
+  "plannedOperations": [
+    "axis-scale-normalization",
+    "animation-retime"
+  ],
+  "knownIssues": [
+    {
+      "id": "idle-duration",
+      "category": "motion",
+      "severity": "must-fix",
+      "scope": "localized",
+      "description": "The source Idle must be retimed to the exact eight-second runtime contract.",
+      "reviewContractBinding": {
+        "subjectType": "target-issue",
+        "subjectId": "idle-visible-and-continuous",
+        "evidenceRequirementIds": [
+          "candidate-full-loop"
+        ]
+      }
+    }
+  ],
+  "executionControls": {
+    "l3Acceptance": {
+      "status": "not-accepted",
+      "acceptedBy": null,
+      "acceptedOn": null,
+      "recordPath": null,
+      "recordSha256": null,
+      "acceptedReviewContractSha256": null
+    },
+    "parallelRequested": false,
+    "animalWorkspacePath": ".handoff/animal-onboarding-runs/example-animal",
+    "stageLockId": "example-animal-model-stage",
+    "stageLockPath": ".handoff/animal-onboarding-runs/example-animal/stage-lock.json",
+    "stageLockSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "reviewContractPath": ".handoff/animal-onboarding-runs/example-animal/review-contract.json",
+    "reviewContractSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  }
+}

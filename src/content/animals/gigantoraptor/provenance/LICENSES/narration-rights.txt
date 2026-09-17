@@ -1,0 +1,37 @@
+Qwen3-TTS Serena narration rights record
+Reviewed: 2026-07-28
+
+The narration script is project-authored. The audio was generated offline with
+Qwen3-TTS-12Hz-0.6B-CustomVoice using its built-in Serena speaker and was
+listened to and approved by the project owner.
+
+Primary-source basis:
+
+- Qwen3-TTS code and the official 0.6B CustomVoice model card are Apache-2.0.
+  https://github.com/QwenLM/Qwen3-TTS/blob/main/LICENSE
+  https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+- Qwen's official release article explicitly lists Serena among the nine
+  open-sourced timbres.
+  https://qwen.ai/blog/?id=qwen3tts-0115
+- The official open-source materials add no research-only, non-commercial, or
+  generated-audio redistribution restriction.
+
+The project owner approves public distribution of the reviewed MP3. The public
+notice identifies the model, Serena speaker, AI synthesis, and Apache-2.0
+model license. A residual risk is retained because the official materials do
+not separately disclose Serena's training/performance or voice-personality
+rights chain. The audio must not imply endorsement by Qwen or Alibaba.
+
+English narration approval
+
+Locale: en
+Speaker: Serena
+Language: English
+Generated: 2026-08-07
+Runtime bytes: 119325
+Runtime SHA-256: 1fb80903c1ff64245d9b3199a2c7dd34ae6e3880f2c1a18c9d6ba9de8db27392
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-07
+
+Script: This is Gigantoraptor, a huge, bird-like dinosaur from the Late Cretaceous. Look at its long neck, slender legs and bird-like body shape.

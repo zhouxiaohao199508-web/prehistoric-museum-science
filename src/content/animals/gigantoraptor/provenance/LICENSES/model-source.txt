@@ -1,0 +1,41 @@
+# User-supplied Sketchfab candidate credits
+
+These files are ignored local-review inputs, not approved production assets.
+
+## Woolly mammoth
+
+The submitted [“Mammoth”](https://sketchfab.com/3d-models/mammoth-219559ef5e7b42a0a84cc84aac213201)
+page by kenchoo is licensed under
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+and identifies its source as
+[“3D High-poly Baby Woolly Mammoth”](https://sketchfab.com/3d-models/3d-high-poly-baby-woolly-mammoth-fce1c86ccedf47a5b9627098be6719d5)
+by [SDPM Esare](https://sketchfab.com/sdpm), licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+The museum's local review uses the upstream SDPM Esare model, not kenchoo's
+animated re-upload. Changes: downloaded as Sketchfab's converted 1K-texture
+GLB; retained as a static exhibit; deduplicated, pruned, repacked, and
+validator-checked. The submitted animated version is retained unchanged and
+as a normalized audit copy but is not served by the review catalog.
+
+Attribution: “3D High-poly Baby Woolly Mammoth” by SDPM Esare, licensed under
+CC BY 4.0; converted by Sketchfab and normalized as a static local-review
+candidate by the Prehistoric Animal Museum project.
+
+## Gigantoraptor
+
+- Creator: [seth the yutyrannus](https://sketchfab.com/slang107123456789)
+- Source: [gigantoraptor](https://sketchfab.com/3d-models/gigantoraptor-e51509d66d464104aef1b72c298a40cf)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as Sketchfab's converted 1K-texture GLB; zero-weight
+  joint indices cleared; unused nodes and data pruned; GLB repacked; a
+  project-authored 6.5-second in-place museum Idle was created in Blender 5.2
+  with the existing rig; body, tail, and jaw motion were retained at 225% of
+  the authored base while head and neck motion were increased to 450% and both
+  arms to 500% after two local visual reviews; 29 rotation-only channels were
+  injected into the normalized base while the root, hips, and legs remained
+  stationary; validator-checked.
+
+Attribution: “gigantoraptor” by seth the yutyrannus, licensed under CC BY 4.0;
+converted by Sketchfab, normalized, and given a project-authored in-place Idle
+by the Prehistoric Animal Museum project.

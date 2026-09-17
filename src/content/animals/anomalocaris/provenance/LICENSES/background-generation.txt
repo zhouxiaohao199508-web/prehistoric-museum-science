@@ -1,0 +1,16 @@
+Reviewed background generation
+
+Tool: OpenAI built-in ImageGen
+Generated: 2026-08-29
+Approved: Project owner on 2026-09-01
+Generation record: assets/candidates/open-source-live-expansion-2026-08-28/background-generation-2026-08-29.md
+
+Landscape private source: assets/candidates/open-source-live-expansion-2026-08-28/anomalocaris/backgrounds/landscape-source.png
+Landscape source SHA-256: b83f860d22b711a80b39be8ea27599409383aba0eeb7c8bc54a8b16414647b42
+Landscape runtime SHA-256: 6c724dfea63bb6d15371e7988eadcff797f7377cdd25488661bbbf54339986fc
+
+Portrait private source: assets/candidates/open-source-live-expansion-2026-08-28/anomalocaris/backgrounds/portrait-source.png
+Portrait source SHA-256: 795bd9d8ec5375203586b91126ff40ca0c2b313170743c2eaaaeb19475e893ed
+Portrait runtime SHA-256: fd9cdd5c11b4fa68926b7a00102952603bd20d290d801bcb86dd1ba35e004ce2
+
+Prompts and revision-specific conversion details are recorded in provenance.ts and the private generation record above. The public runtime contains only the approved WebP outputs.

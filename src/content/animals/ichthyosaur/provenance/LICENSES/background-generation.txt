@@ -1,0 +1,27 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-26
+Use: project-specific responsive museum backgrounds
+
+Shared prompt:
+Refined layered paper-cut picture-book art with soft gouache texture, matte
+paper colour fields, rounded layered silhouettes, restrained paper grain, and
+shallow soft shadows. Create an empty lush fern and cycad forest clearing,
+with a quiet central model safe area. No animal, person, text, UI, logo,
+watermark, runtime tint, filter, or colour overlay.
+
+The 16:9 landscape and 9:16 portrait images were generated as separate
+compositions. The portrait is not a crop of the landscape.
+
+Landscape source PNG:
+- bytes: 3022431
+- SHA-256: dcc0610f8e0c047dc9fa447866e540812f1465ea486ac71b9a1db1341296aafc
+
+Portrait source PNG:
+- bytes: 2936517
+- SHA-256: 04f26fbcb0128371caa7437d63ae32fb69476e87ca8d6d09a70c323b5cc831c5
+
+The runtime copies were converted to WebP with metadata removed. Public
+release remains subject to the repository owner's final rights review.

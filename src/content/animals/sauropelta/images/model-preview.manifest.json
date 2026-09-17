@@ -1,0 +1,55 @@
+{
+  "animalId": "sauropelta",
+  "contractVersion": 3,
+  "generatedAt": "2026-08-10T04:10:31.408Z",
+  "presentationSignature": "{\"contractVersion\":3,\"renderer\":{\"cameraFieldOfViewDegrees\":34,\"maxPixelRatio\":2},\"layout\":{\"coordinateSystem\":\"fixed-fullscreen-canvas+composition-frame-v1\",\"phonePortraitModelScale\":1.15,\"previewObjectFit\":\"contain\",\"referenceViewports\":[{\"key\":\"landscapeCompact\",\"width\":844,\"height\":390},{\"key\":\"desktopWide\",\"width\":1280,\"height\":720},{\"key\":\"phonePortraitCompact\",\"width\":360,\"height\":640},{\"key\":\"phonePortraitTall\",\"width\":390,\"height\":844},{\"key\":\"tabletPortrait\",\"width\":768,\"height\":1024},{\"key\":\"desktopStandard\",\"width\":1440,\"height\":900}]},\"animation\":{\"clip\":\"Idle\",\"loop\":\"repeat\",\"speed\":1},\"presentation\":{\"cameraLightScale\":1,\"horizontalOffset\":{\"landscape\":0,\"portrait\":0},\"initialYawDegrees\":0,\"preciseBounds\":true,\"safeAreaPadding\":{\"landscape\":0.12,\"portrait\":0.14},\"shadow\":{\"depthOffset\":0,\"depthScale\":1,\"horizontalOffset\":0,\"opacity\":0.32,\"scale\":0.58,\"yOffset\":0},\"toneMappingExposure\":1.08,\"verticalOffset\":{\"landscape\":0,\"portrait\":0}}}",
+  "profiles": {
+    "landscapeCompact": {
+      "bytes": 131912,
+      "fileName": "preview-landscape-compact.webp",
+      "height": 650,
+      "sha256": "78d619a0287401e7fb6c1f3ceeb0fae17f9ff939d7e9783d283b3a49eda3a13d",
+      "width": 1250
+    },
+    "desktopWide": {
+      "bytes": 142780,
+      "fileName": "preview-desktop-wide.webp",
+      "height": 800,
+      "sha256": "41654dc7733e0c9609cf15ed1a9776a9e8cc4efa461eef0b8132de5844123956",
+      "width": 1200
+    },
+    "phonePortraitCompact": {
+      "bytes": 91782,
+      "fileName": "preview-phone-compact.webp",
+      "height": 1000,
+      "sha256": "f03149cb76c1e28d44289a1a4c3aaa5e099afe159686fe40fc5bb9fa09740a67",
+      "width": 875
+    },
+    "phonePortraitTall": {
+      "bytes": 63542,
+      "fileName": "preview-phone-tall.webp",
+      "height": 1000,
+      "sha256": "9ebc63bf187c80d75bd35657035753bce43674f11d3a6f227b1822b7e2f3c88a",
+      "width": 640
+    },
+    "tabletPortrait": {
+      "bytes": 88384,
+      "fileName": "preview-tablet-portrait.webp",
+      "height": 960,
+      "sha256": "c38185d6b93f614c24d65ea25f39d6199e324f3de4bbedf5ec47c59cd7e372ef",
+      "width": 900
+    },
+    "desktopStandard": {
+      "bytes": 146764,
+      "fileName": "preview-desktop-standard.webp",
+      "height": 960,
+      "sha256": "96f842f8a61251186d59a2937dc193887947be6493bca256ac1d17f905c9a99d",
+      "width": 1200
+    }
+  },
+  "sourceModel": {
+    "bytes": 3591444,
+    "sha256": "ef283def4b17e92122442c8cfb617dce7abecf0bdc1962dc2ff1f18835e7a58c"
+  },
+  "target": "production"
+}

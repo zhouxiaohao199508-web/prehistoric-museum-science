@@ -1,0 +1,16 @@
+Model source and derivation
+
+Title: Mosasaurus
+Author: Lukiethewesly13
+Direct source: https://sketchfab.com/3d-models/mosasaurus-fe0c25c4ed4e4d4aa05312121e2f68df
+Accessed: 2026-07-31
+Source bytes: 5018936
+Source SHA-256: 03f67116c7c171e9a89192805b79724faa81b35097587edb386185dfd8cb51ce
+Runtime bytes: 5525476
+Runtime SHA-256: f83f490f0244fb4dcc9e0860b54216f26ab9144900ef19e3adb8692e769bed68
+
+- Freeze the reviewed source pose and, when eligible, a source-rig partial mouth-close target before making morph animation deterministic. Operation: bake-and-join.
+- Align length to X, center the visible bounds, and apply habitat grounding. Operation: canonical-transform.
+- Export one traceable, closed-loop, in-place project Idle. Operation: replace-runtime-animation.
+- Authored and validator-checked one closed eight-second marine-tail Idle for the shared museum viewer.
+- Included the human-reviewed source-rig partial mouth relaxation in the same Idle loop.

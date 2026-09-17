@@ -1,0 +1,58 @@
+# Second-pass Sketchfab candidate credits
+
+All five source models are offered under
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+They remain intake candidates rather than approved release assets.
+
+## PBR Stegasaurus (Animated)
+
+- Creator: [Ferocious Industries](https://sketchfab.com/ferociousindustries.matthias)
+- Source: [PBR Stegasaurus (Animated)](https://sketchfab.com/3d-models/pbr-stegasaurus-animated-ec254ea1554941fe8a131f62db0faf3d)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as the converted 1K-texture GLB; project-facing name
+  corrected to *Stegosaurus*; legacy specular/glossiness materials converted to
+  metallic/roughness; zero-weight joint indices cleared; all animation clips
+  except `IdleA` removed; retained clip renamed `Idle`; unused data pruned and
+  GLB repacked.
+
+## PBR Pachycephalasaurus Animated
+
+- Creator: [Ferocious Industries](https://sketchfab.com/ferociousindustries.matthias)
+- Source: [PBR Pachycephalasaurus Animated](https://sketchfab.com/3d-models/pbr-pachycephalasaurus-animated-6eea5cee4afa4730bf75c6329a43e56d)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as the converted 1K-texture GLB; project-facing name
+  corrected to *Pachycephalosaurus*; legacy specular/glossiness materials
+  converted to metallic/roughness; zero-weight joint indices cleared; all
+  animation clips except `IdleA` removed; retained clip renamed `Idle`; unused
+  data pruned and GLB repacked.
+
+## Pteranodon (Animated)
+
+- Creator: [Chistodrako._. / Oscar López Riviello](https://sketchfab.com/oscar.lopez.riviello)
+- Source: [Pteranodon (Animated)](https://sketchfab.com/3d-models/pteranodon-animated-7d7683df41d1405283f160e81a5dff1b)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as the converted 1K-texture GLB; legacy
+  specular/glossiness materials converted to metallic/roughness; zero-weight
+  joint indices cleared; the source `flying` action transferred in Blender
+  5.2 onto the normalized runtime rig; its root rebased to the museum rest
+  origin and translation reduced to 3.5%; repaired loop retained as `Idle`;
+  unused data pruned and GLB repacked.
+
+## Maiasaura With Rig
+
+- Creator: [Dino Dan](https://sketchfab.com/DinoDanDragonMan)
+- Source: [Maiasaura With Rig](https://sketchfab.com/3d-models/maiasaura-with-rig-3da9f211ae304bd0afd1d15a290eabbd)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as the converted 1K-texture GLB; zero-weight joint
+  indices cleared; unused data pruned and GLB repacked. The source has a rig
+  but no animation clips.
+
+## ichthyosaur
+
+- Creator: [pro_alba](https://sketchfab.com/pro_alba)
+- Source: [ichthyosaur](https://sketchfab.com/3d-models/ichthyosaur-dffbc77b634a408f91dd5f68df4cc94f)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as the converted GLB; zero-weight joint indices cleared;
+  only `Armature|SwimIdle` retained and renamed `Idle`; unused data pruned and
+  GLB repacked. The project-facing label is the group-level “鱼龙类”
+  (`ichthyosaur`) because the source does not identify a genus or species.

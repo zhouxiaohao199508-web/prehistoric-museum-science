@@ -1,0 +1,39 @@
+# User-supplied Sketchfab candidate credits
+
+These files are ignored local-review inputs, not approved production assets.
+
+## Woolly mammoth
+
+The submitted [“Mammoth”](https://sketchfab.com/3d-models/mammoth-219559ef5e7b42a0a84cc84aac213201)
+page by kenchoo is licensed under
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+and identifies its source as
+[“3D High-poly Baby Woolly Mammoth”](https://sketchfab.com/3d-models/3d-high-poly-baby-woolly-mammoth-fce1c86ccedf47a5b9627098be6719d5)
+by [SDPM Esare](https://sketchfab.com/sdpm), licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+The museum's local review uses the upstream SDPM Esare model, not kenchoo's
+animated re-upload. Changes: downloaded as Sketchfab's converted 1K-texture
+GLB; deduplicated, pruned, and repacked; a project-authored 8-bone armature,
+deterministic skin weights, matched head/body neck blend, and stationary tail
+root added in Blender; an eight-second in-place head, tusk, and distal-tail
+Idle authored, normalized to two rotation-only channels, and
+validator-checked. The submitted animated version is retained unchanged as an
+audit copy but is not served by the review catalog.
+
+Attribution: “3D High-poly Baby Woolly Mammoth” by SDPM Esare, licensed under
+CC BY 4.0; converted by Sketchfab, normalized, rigged, weighted, and given an
+in-place museum Idle by the Prehistoric Animal Museum project.
+
+## Gigantoraptor
+
+- Creator: [seth the yutyrannus](https://sketchfab.com/slang107123456789)
+- Source: [gigantoraptor](https://sketchfab.com/3d-models/gigantoraptor-e51509d66d464104aef1b72c298a40cf)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as Sketchfab's converted 1K-texture GLB; zero-weight
+  joint indices cleared; retained as a static exhibit; unused nodes and data
+  pruned; GLB repacked and validator-checked.
+
+Attribution: “gigantoraptor” by seth the yutyrannus, licensed under CC BY 4.0;
+converted by Sketchfab and normalized as a static local-review candidate by
+the Prehistoric Animal Museum project.

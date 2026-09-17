@@ -1,0 +1,26 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Seed: 20260726
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-09-01
+
+Chinese narration
+
+Language: Chinese
+Generated: 2026-08-29
+Runtime bytes: 129645
+Runtime SHA-256: 8bae3d056d4e92a5a2059a2502d9c6b97069e95ae80b13cc14dc9fd6c4c3e91a
+Script: 这是始祖鸟，一种生活在晚侏罗世德国的小型有羽毛恐龙。看看它的羽毛、翅膀爪和长尾巴，哪些地方像鸟，哪些地方又像恐龙？
+
+English narration
+
+Language: English
+Generated: 2026-08-29
+Runtime bytes: 149805
+Runtime SHA-256: af758bee30c4c51e3e556af561c90ee8de4ec5676bbb24df3acee36443c0a6e3
+Script: This is Archaeopteryx, a small feathered dinosaur from Late Jurassic Germany. Look at its feathers, wing claws and long tail. Which parts look bird-like, and which look dinosaur-like?

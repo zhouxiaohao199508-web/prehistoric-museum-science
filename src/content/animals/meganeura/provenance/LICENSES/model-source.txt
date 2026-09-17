@@ -1,0 +1,15 @@
+Model source and derivation
+
+Title: Meganeura Dinoraul but it is a bit accurate
+Author: Nobilis the Palaeovespa (@nobilishornet)
+Direct source: https://sketchfab.com/3d-models/meganeura-dinoraul-but-it-is-a-bit-accurate-1aaab4a72fbc42b4901d5f1dde12a281
+Accessed: 2026-08-01
+Source bytes: 4623164
+Source SHA-256: b67cdb48e1ebe0f569aa45ec00144b452be699202bb3f9bdcb88ab4ce7b478f0
+Runtime bytes: 5695048
+Runtime SHA-256: 4fbebc819c8d5d9429ea4286f69b43e642b63e549a74bade2513253da8ca4ac3
+
+- Freeze the reviewed source pose and, when eligible, a source-rig partial mouth-close target before making morph animation deterministic. Operation: bake-and-join.
+- Align length to X, center the visible bounds, and apply habitat grounding. Operation: canonical-transform.
+- Export one traceable, closed-loop, in-place project Idle. Operation: replace-runtime-animation.
+- Authored and validator-checked one closed eight-second flying-insect Idle for the shared museum viewer.

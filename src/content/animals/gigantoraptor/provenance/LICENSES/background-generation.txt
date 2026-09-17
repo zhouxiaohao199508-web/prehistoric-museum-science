@@ -1,0 +1,29 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-29
+Use: project-specific responsive museum backgrounds
+
+Prompt direction:
+Refined layered paper-cut picture-book art with soft gouache texture, tactile
+matte paper, and shallow soft shadows. Create an empty late-Cretaceous Inner
+Mongolian Gobi alluvial plain with ochre and muted-red badlands, dry braided
+channels, distant dunes, stones, sparse scrub, and a few hardy fern-like
+plants. Keep the centre open for the tall model and preserve the arid habitat
+instead of turning it into a swamp forest. No animal, person, egg, nest, text,
+UI, logo, watermark, photorealism, or baked-in particles.
+
+The 16:9 landscape and 9:16 portrait images were generated as separate
+compositions. The portrait is not a crop of the landscape.
+
+Landscape source PNG:
+- bytes: 2624644
+- SHA-256: 406757106acc93a47e3994e9b3caae8e3ac06ef4afe7bda2b2366087d74ec578
+
+Portrait source PNG:
+- bytes: 2537524
+- SHA-256: 2de6012b3a98f2c537b6cd23edf8b180fdd36cfdd491d499bd9d81a0717bebd6
+
+The runtime copies were converted to WebP at quality 82 with metadata removed. Public
+release remains subject to the repository owner's final rights review.

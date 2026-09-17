@@ -1,0 +1,55 @@
+{
+  "animalId": "gigantoraptor",
+  "contractVersion": 3,
+  "generatedAt": "2026-08-10T04:08:08.924Z",
+  "presentationSignature": "{\"contractVersion\":3,\"renderer\":{\"cameraFieldOfViewDegrees\":34,\"maxPixelRatio\":2},\"layout\":{\"coordinateSystem\":\"fixed-fullscreen-canvas+composition-frame-v1\",\"phonePortraitModelScale\":1.15,\"previewObjectFit\":\"contain\",\"referenceViewports\":[{\"key\":\"landscapeCompact\",\"width\":844,\"height\":390},{\"key\":\"desktopWide\",\"width\":1280,\"height\":720},{\"key\":\"phonePortraitCompact\",\"width\":360,\"height\":640},{\"key\":\"phonePortraitTall\",\"width\":390,\"height\":844},{\"key\":\"tabletPortrait\",\"width\":768,\"height\":1024},{\"key\":\"desktopStandard\",\"width\":1440,\"height\":900}]},\"animation\":{\"clip\":\"Idle\",\"loop\":\"repeat\",\"speed\":0.9},\"presentation\":{\"cameraLightScale\":1,\"horizontalOffset\":{\"landscape\":0,\"portrait\":0},\"initialYawDegrees\":-90,\"preciseBounds\":false,\"safeAreaPadding\":{\"landscape\":0.14,\"portrait\":0.14},\"shadow\":{\"depthOffset\":0,\"depthScale\":1,\"horizontalOffset\":0,\"opacity\":0.42,\"scale\":0.62,\"yOffset\":0},\"toneMappingExposure\":1,\"verticalOffset\":{\"landscape\":0,\"portrait\":0}}}",
+  "profiles": {
+    "landscapeCompact": {
+      "bytes": 92576,
+      "fileName": "preview-landscape-compact.webp",
+      "height": 650,
+      "sha256": "d7d95769c29a2ce4a4329a5394f598612c838400c81764b33079a379924eeb4a",
+      "width": 1250
+    },
+    "desktopWide": {
+      "bytes": 148610,
+      "fileName": "preview-desktop-wide.webp",
+      "height": 800,
+      "sha256": "dc7b53575c8ddda7b72ffe2444d6b40ca333d1e171fa785ddd69e4eda59c5d3c",
+      "width": 1200
+    },
+    "phonePortraitCompact": {
+      "bytes": 133540,
+      "fileName": "preview-phone-compact.webp",
+      "height": 1000,
+      "sha256": "a84871c6370ab9c5e5584310f6ae78011324b71f37b2c639113e65cd9cfe12a3",
+      "width": 875
+    },
+    "phonePortraitTall": {
+      "bytes": 90748,
+      "fileName": "preview-phone-tall.webp",
+      "height": 1000,
+      "sha256": "62741ca515f9136892a59b09492c6891cacabf851ea7c8da80e88bcaa2aba65d",
+      "width": 640
+    },
+    "tabletPortrait": {
+      "bytes": 126150,
+      "fileName": "preview-tablet-portrait.webp",
+      "height": 960,
+      "sha256": "15c4e58fac77b34dd8039b282a84edda5c0955c3c276195ad220318560e256ee",
+      "width": 900
+    },
+    "desktopStandard": {
+      "bytes": 200474,
+      "fileName": "preview-desktop-standard.webp",
+      "height": 960,
+      "sha256": "936fe5d4b080a8d42bdad3a2345015be2eead4b8bc9f5386d3e9beea7765b508",
+      "width": 1200
+    }
+  },
+  "sourceModel": {
+    "bytes": 1333576,
+    "sha256": "26b137edc63f38defdf04d85903a30ad7817c83c5b3d5f5626a1fb2e6f216c0e"
+  },
+  "target": "production"
+}

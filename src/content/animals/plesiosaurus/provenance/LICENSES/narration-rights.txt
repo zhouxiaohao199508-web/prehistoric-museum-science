@@ -1,0 +1,33 @@
+Qwen3-TTS Serena narration rights record
+Reviewed: 2026-07-31
+
+The Mandarin script is project-authored. The audio was generated offline with
+Qwen3-TTS-12Hz-0.6B-CustomVoice using its built-in Serena speaker, normalized
+to a 48 kHz mono MP3, and listened to and approved by the project owner.
+
+Output SHA-256:
+7f09a3074e675a5e0b5c30b7880af8e2b80acb20308e32356998169630dc9557
+
+Qwen3-TTS code and the official 0.6B CustomVoice model card are Apache-2.0:
+https://github.com/QwenLM/Qwen3-TTS/blob/main/LICENSE
+https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+
+The official release identifies Serena among the open-sourced timbres:
+https://qwen.ai/blog/?id=qwen3tts-0115
+
+The owner approves public distribution of this reviewed MP3. The public
+notice identifies the model, Serena speaker, AI synthesis, and model license.
+
+English narration approval
+
+Locale: en
+Speaker: Serena
+Language: English
+Generated: 2026-08-07
+Runtime bytes: 174285
+Runtime SHA-256: 8bd7a297842516bd023982ec6a2ac7d0836e346e0cbea8f28b87fb6296784c18
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-07
+
+Script: This is a plesiosaur. Plesiosaurs were sea reptiles that lived alongside dinosaurs, but they were not dinosaurs. Look at its long neck and four flippers. All four could work together like wings under the water.

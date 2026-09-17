@@ -1,0 +1,18 @@
+Model source record
+===================
+
+- Downloaded: 2026-08-04
+- Source title: Apatosaurus
+- Creator: toro ardido modelos 3d
+- Source URL: https://sketchfab.com/3d-models/apatosaurus-fecabec8e4ef42ef98b5480dbf50c57d
+- License shown by source page: Creative Commons Attribution 4.0 International
+- License URL: https://creativecommons.org/licenses/by/4.0/
+- Rights confirmation: on 2026-08-05 the product owner confirmed that the
+  source publisher holds the required source rights and authorized public
+  promotion of the reviewed derivative.
+- Preserved source archive size: 10,558,696 bytes
+- Preserved source archive SHA-256: 0c87a0892d859b42693c3558b8194047f4003fb164235154199ad9bdd5c07eb1
+
+The source archive is retained unchanged in the private intake area. The
+tracked runtime derivative preserves attribution and records all project
+modifications in the package provenance.

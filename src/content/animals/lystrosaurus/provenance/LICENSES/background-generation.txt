@@ -1,0 +1,16 @@
+Reviewed background generation
+
+Tool: OpenAI built-in ImageGen
+Generated: 2026-08-29
+Approved: Project owner on 2026-09-01
+Generation record: assets/candidates/open-source-live-expansion-2026-08-28/background-generation-2026-08-29.md
+
+Landscape private source: assets/candidates/open-source-live-expansion-2026-08-28/lystrosaurus/backgrounds/landscape-source-v5.png
+Landscape source SHA-256: e7f8358df801894b7f9b3b6ce6b780d2871ea8dd8b7cbd3de36234fd0141ab0f
+Landscape runtime SHA-256: 6a04c7334312694b553a3430126590a92d11378d18e64710ec450e7b9f02364d
+
+Portrait private source: assets/candidates/open-source-live-expansion-2026-08-28/lystrosaurus/backgrounds/portrait-source-v5.png
+Portrait source SHA-256: 73eca79e9c219de9cae41b9aecadef8be0eface6f18799074fc0fadecd483a32
+Portrait runtime SHA-256: 55e46d34fe7b7f6b9f3bee16c01e77960e44b8f2473b847ed5cfd620220b69c7
+
+Prompts and revision-specific conversion details are recorded in provenance.ts and the private generation record above. The public runtime contains only the approved WebP outputs.

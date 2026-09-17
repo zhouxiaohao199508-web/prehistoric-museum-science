@@ -1,0 +1,44 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Original compositions generated: 2026-07-29; portrait depth revised 2026-07-31
+Clarity edits generated: 2026-08-16
+Use: project-specific responsive museum exhibit backgrounds
+
+The accepted landscape and portrait compositions were edited separately. The
+2026-08-16 edit preserved the horizon, open staging area and edge framing while
+removing excessive soft-focus, hazy gouache blur, oversized paper texture and
+flat paper-cut softness. Snow mountains, glacier faces, conifers, rocks, frozen
+shrubs, residual snow and dry tundra soil were made legible with a controlled
+foreground-to-midground-to-distance progression. Atmospheric softening is
+limited to the farthest distance. The image remains a refined educational
+illustration rather than a photograph.
+
+Both edits exclude animals, people, text, interface elements, logos,
+watermarks, platforms, hard ground seams, artificial depth of field, bloom,
+fog veils, high-saturation fantasy colour and repeated vegetation patterns.
+
+Landscape clarity-edit source PNG:
+- path: .handoff/mammoth-exhibit-background-clarity-v2-2026-08-16/imagegen-source/mammoth-exhibit-landscape-v2.png
+- dimensions: 1672 x 941
+- bytes: 3131168
+- SHA-256: d7a5d95a736b8742aec9959ea09ebd105590688db4a02d2116502e334b458e79
+
+Portrait clarity-edit source PNG:
+- path: .handoff/mammoth-exhibit-background-clarity-v2-2026-08-16/imagegen-source/mammoth-exhibit-portrait-v2.png
+- dimensions: 941 x 1672
+- bytes: 2456282
+- SHA-256: 13af5d95f704c61893e3ce550bd2d467c4786a3eeb57581e8fbf19d9e269d700
+
+The reviewed clarity derivatives were first prepared at 4096 x 2304 and
+2304 x 4096. For the runtime package they were downscaled to 2048 x 1152 and
+1152 x 2048 with Sharp Lanczos3 resampling, then encoded as WebP at quality 82
+and effort 6. Ancillary metadata was removed. The application applies no
+background blur or depth-of-field filter.
+
+The exact landscape and portrait edit prompts are retained in
+.handoff/mammoth-exhibit-background-clarity-v2-2026-08-16/imagegen-prompts.json
+and in the generated asset provenance record.
+
+Public release remains subject to the repository owner's final rights review.

@@ -1,0 +1,16 @@
+Poster and thumbnail derivation record
+======================================
+
+Generated: 2026-07-29
+
+The poster is a browser-rendered presentation of the accepted
+Pachycephalosaurus model over its new fern forest. The responsive presentation
+lowers the model toward the path and uses a stronger, tighter contact shadow
+to remove the floating impression. The 1440 x 900 production application was
+captured with reduced motion, then cropped at x=460,y=120 to a
+960 x 540 poster without text or controls. A 700 x 700 model-stage crop was
+resized to 320 x 320 for the collection thumbnail.
+
+The model attribution and CC BY 4.0 terms in model-license.txt continue to
+apply to both images. The background was generated specifically for this
+project; its generation record is retained in background-generation.txt.

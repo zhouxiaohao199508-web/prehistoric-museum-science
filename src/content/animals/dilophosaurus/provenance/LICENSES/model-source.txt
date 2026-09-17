@@ -1,0 +1,16 @@
+Model source and derivation
+
+Title: Dilophosaurus
+Author: Marcel Schanz
+Direct source: https://sketchfab.com/3d-models/dilophosaurus-d09b3aa874db4e1cbf29a14797ca351f
+Accessed: 2026-07-31
+Source bytes: 9817604
+Source SHA-256: c209fee5e214739ee4582bf11ce46aefe47f8030de131cb3c8c63a75cffeeeae
+Runtime bytes: 12396544
+Runtime SHA-256: f11121b6be84e11fb39ad77ff32d5a445c8d626548b09c50a2c4633f66a2e7a7
+
+- Freeze the reviewed source pose and, when eligible, a source-rig partial mouth-close target before making morph animation deterministic. Operation: bake-and-join.
+- Align length to X, center the visible bounds, and apply habitat grounding. Operation: canonical-transform.
+- Export one traceable, closed-loop, in-place project Idle. Operation: replace-runtime-animation.
+- Authored and validator-checked one closed eight-second land-breathe-tail Idle for the shared museum viewer.
+- Included the human-reviewed curated-components partial mouth relaxation in the same Idle loop.

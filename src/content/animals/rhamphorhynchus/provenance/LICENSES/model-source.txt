@@ -1,0 +1,15 @@
+Model source and derivation
+
+Title: Low-poly Rhamphorhynchus idle
+Author: Robear (@xiaorobear)
+Direct source: https://sketchfab.com/3d-models/low-poly-rhamphorhynchus-idle-c1e35c7ac4374c778f78025717694675
+Accessed: 2026-07-31
+Source bytes: 2336520
+Source SHA-256: d454ee25a6165bd41852a58fdceae978bd59bd284879ec0692e820a57c8a4c2b
+Runtime bytes: 5627724
+Runtime SHA-256: 4c2ded260f523f559afc188808c9cfc095e82e4172ea1d794b3367b3f7e4287a
+
+- Freeze the reviewed source pose and, when eligible, a source-rig partial mouth-close target before making morph animation deterministic. Operation: bake-and-join.
+- Align length to X, center the visible bounds, and apply habitat grounding. Operation: canonical-transform.
+- Export one traceable, closed-loop, in-place project Idle. Operation: replace-runtime-animation.
+- Authored and validator-checked one closed eight-second flying-wing Idle for the shared museum viewer.

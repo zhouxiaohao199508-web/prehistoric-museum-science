@@ -1,0 +1,29 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-29
+Use: project-specific responsive museum backgrounds
+
+Prompt direction:
+Refined layered paper-cut picture-book art with soft gouache texture, tactile
+matte paper, and shallow soft shadows. Create an empty humid late-Cretaceous
+North American conifer-and-fern woodland with towering trunks, tree-fern
+crowns, cycads, mossy logs, layered ferns, and a high canopy opening. Preserve
+a clear oval centre for the model while using the tall forest to communicate
+prehistoric scale. No animal, person, text, UI, logo, watermark, modern
+flowers, photorealism, or baked-in particles.
+
+The 16:9 landscape and 9:16 portrait images were generated as separate
+compositions. The portrait is not a crop of the landscape.
+
+Landscape source PNG:
+- bytes: 3088444
+- SHA-256: 5162f97e99025e3744f5cdf3d12405b1150b8be9d16f9e1453fa1184aa2606b5
+
+Portrait source PNG:
+- bytes: 2692184
+- SHA-256: 6c1eb3b4810efc3009e0a6dbc5f111aa275f1014ecd7e2f17a021de8aca13984
+
+The runtime copies were converted to WebP at quality 82 with metadata removed. Public
+release remains subject to the repository owner's final rights review.

@@ -1,0 +1,14 @@
+Model source and derivation
+
+Title: CARNOTAURUS DİNOSAUR
+Author: Cenker Turhan
+Direct source: https://sketchfab.com/3d-models/carnotaurus-dinosaur-548c9a0575b14deaae1f12ca9a6c31ca
+Accessed: 2026-08-28
+Private source evidence: assets/candidates/open-source-live-expansion-2026-08-28/carnotaurus/source/carnotaurus-1k.glb
+Source bytes: 31681816
+Source SHA-256: c960105d905c1f445b11593beb6c387bbb2e77e87b5b19cef519ce8898cea78b
+Runtime bytes: 4173696
+Runtime SHA-256: e66ebb901782706aadd2a054bd7965f1c819ead52f73baa5fcf34ca3427265f8
+
+- Removed the separate rock, calibrated both feet to a grounded pose, and compressed the model for browser delivery.
+- Retained the original left forelimb, adjusted the original right forelimb, bound lower teeth to the jaw, kept the tongue independent, and authored a closed eight-second jaw-and-tail Idle.

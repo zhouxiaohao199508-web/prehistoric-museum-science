@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "contractId": "example-animal-onboarding",
+  "animalId": "example-animal",
+  "baselineAssetSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "purpose": "Prepare one exact animal model revision without changing its accepted identity, limb count or initial presentation semantics.",
+  "targetIssues": [
+    {
+      "id": "idle-visible-and-continuous",
+      "category": "motion",
+      "severity": "must-fix",
+      "currentProblem": "The candidate has no accepted full-loop runtime evidence.",
+      "expectedOutcome": "Idle is visible, natural and continuous for the complete eight-second loop.",
+      "verification": "agent-visual-pass",
+      "requiredEvidence": [
+        "candidate-full-loop"
+      ]
+    }
+  ],
+  "invariants": [
+    {
+      "id": "anatomy-remains-intact",
+      "category": "anatomy",
+      "statement": "Limb and appendage count, left/right identity and facial attachments remain intact.",
+      "verification": "agent-visual-pass",
+      "baselineEvidence": [
+        "baseline-multiview"
+      ],
+      "candidateEvidence": [
+        "candidate-multiview"
+      ]
+    }
+  ],
+  "stateSequences": [
+    {
+      "id": "initial-and-closest-view",
+      "category": "interaction",
+      "given": {
+        "state": "viewer-opened",
+        "assertions": [
+          "The declared initial camera distance is used."
+        ]
+      },
+      "when": {
+        "action": "Zoom to the closest allowed distance.",
+        "conditions": [
+          "The final GLB is loaded."
+        ]
+      },
+      "then": {
+        "state": "closest-view-reached",
+        "assertions": [
+          "The model remains framed and the initial configuration is unchanged."
+        ]
+      },
+      "verification": "machine-pass",
+      "requiredEvidence": [
+        "runtime-camera-states"
+      ]
+    }
+  ],
+  "evidenceRequirements": [
+    {
+      "id": "baseline-multiview",
+      "category": "anatomy",
+      "kind": "still",
+      "stage": "baseline",
+      "description": "Baseline left, right and front structure views.",
+      "requiredFor": "agent-visual-pass",
+      "perspectives": [
+        "front",
+        "left",
+        "right"
+      ],
+      "sampleTimesSeconds": [
+        0
+      ],
+      "fullCycle": false
+    },
+    {
+      "id": "candidate-full-loop",
+      "category": "motion",
+      "kind": "frame-sequence",
+      "stage": "runtime",
+      "description": "Paused frames covering the complete Idle loop from one locked camera.",
+      "requiredFor": "agent-visual-pass",
+    "perspectives": [
+      "initial",
+      "opposite",
+      "rear"
+      ],
+      "sampleTimesSeconds": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "fullCycle": true
+    },
+    {
+      "id": "candidate-multiview",
+      "category": "anatomy",
+      "kind": "frame-sequence",
+      "stage": "candidate",
+    "description": "Candidate structure views from the declared initial, opposite and rear camera angles.",
+      "requiredFor": "agent-visual-pass",
+      "perspectives": [
+      "initial",
+      "opposite",
+      "rear"
+      ],
+      "sampleTimesSeconds": [
+        0,
+        4
+      ],
+      "fullCycle": false
+    },
+    {
+      "id": "runtime-camera-states",
+      "category": "interaction",
+      "kind": "runtime-state",
+      "stage": "runtime",
+      "description": "Recorded initial and closest camera states.",
+      "requiredFor": "machine-pass",
+      "perspectives": [
+        "closest",
+        "initial"
+      ],
+      "sampleTimesSeconds": [],
+      "fullCycle": false
+    }
+  ]
+}

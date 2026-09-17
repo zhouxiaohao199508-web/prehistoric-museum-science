@@ -1,0 +1,24 @@
+Model source and modification record
+====================================
+
+Sketchfab source UID: ec254ea1554941fe8a131f62db0faf3d
+Download method: authenticated Sketchfab web download, converted GLB with 1K textures
+Downloaded source bytes: 8026408
+Downloaded source SHA-256: 611aa55ad61025a5ec6391081f70bb916e60909b73361e5919f73acfa9012d75
+
+Runtime derivative bytes: 6819152
+Runtime derivative SHA-256: 514e673525173134279604efe592e9c5079e916e8e2be0d729701bbb650adae1
+
+Modifications:
+- converted KHR_materials_pbrSpecularGlossiness materials to metallic/roughness;
+- cleared joint indices whose corresponding skin weight was zero;
+- retained IdleA only and renamed it Idle;
+- deduplicated, pruned, repacked, and validated the derivative;
+- corrected the project-facing taxon spelling to Stegosaurus.
+
+Recorded engineering measurements:
+- 19,839 triangles;
+- three meshes and two materials;
+- six embedded 1K textures;
+- one retained animation named Idle;
+- zero normalized validator errors.

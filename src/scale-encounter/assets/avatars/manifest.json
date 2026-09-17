@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 2,
+  "status": "production-approved",
+  "productionApproved": true,
+  "generatedAt": "2026-08-24T18:16:13.918Z",
+  "licenseEvidence": {
+    "status": "owner-attested",
+    "provider": "Meshy",
+    "planAtGeneration": "Pro",
+    "licenseType": "Private",
+    "generatedOrExportedOn": "2026-08-19",
+    "assetVisibility": "private",
+    "publishedToCommunity": false,
+    "referenceInputRightsAttested": true,
+    "projectAuthorization": [
+      "use",
+      "modify",
+      "distribute-with-application"
+    ],
+    "taskIdStatus": "not-found-in-meshy-web-workspace",
+    "attestedBy": "Leon",
+    "attestedOn": "2026-08-19",
+    "termsEvidence": [
+      "https://www.meshy.ai/terms-of-use",
+      "https://help.meshy.ai/en/articles/9992001-can-i-use-meshy-assets-commercially-license-copyright-explained",
+      "https://docs.meshy.ai/en/webapp/pricing"
+    ]
+  },
+  "packages": [
+    {
+      "authoredHeightMeters": 1.15,
+      "clips": [
+        "Idle_Forest",
+        "Walk_Forest",
+        "Run_Forest",
+        "Jump_Land_Stand",
+        "Jump_Land_Walk",
+        "Jump_Land_Run"
+      ],
+      "filename": "child-avatar-v4-boy-land-explorer-v01.glb",
+      "gender": "boy",
+      "id": "boy-land-explorer",
+      "multiviewVersion": "v02",
+      "productionApproved": true,
+      "profile": "land-explorer",
+      "rejectedActions": {},
+      "sha256": "591201f2048b279a4dcc6a231c2023cc5a9a9d36495e803d437e40f1abd4c62b"
+    },
+    {
+      "authoredHeightMeters": 1.15,
+      "clips": [
+        "Idle_Snow",
+        "Walk_Snow",
+        "Jump_Land_Stand",
+        "Jump_Land_Walk",
+        "Jump_Land_Run"
+      ],
+      "filename": "child-avatar-v4-boy-snow-expedition-v01.glb",
+      "gender": "boy",
+      "id": "boy-snow-expedition",
+      "multiviewVersion": "v01",
+      "productionApproved": true,
+      "profile": "snow-expedition",
+      "rejectedActions": {
+        "run": "Reserved: the current cold-grassland rail has no fast mode and defaults to a stable walk."
+      },
+      "sha256": "6ea345a82d8649e9ca6e86d7b9a0603eb203fc2a3a52c319ddaa9f3ae8b46658"
+    },
+    {
+      "authoredHeightMeters": 1.15,
+      "clips": [
+        "Glide_Static"
+      ],
+      "filename": "child-avatar-v4-boy-air-wingsuit-v01.glb",
+      "gender": "boy",
+      "id": "boy-air-wingsuit",
+      "multiviewVersion": "v02",
+      "productionApproved": true,
+      "profile": "air-wingsuit",
+      "rejectedActions": {
+        "run": "A ground-running cycle is incompatible with prone wingsuit flight.",
+        "walk": "A ground-walking cycle is incompatible with prone wingsuit flight."
+      },
+      "sha256": "b2d48dacde98091d48edfc3fb330fb5bfd0bdf6590986a3d30b2a4e5348b3e9b"
+    },
+    {
+      "authoredHeightMeters": 1.15,
+      "clips": [
+        "Scuba_Trim_Static"
+      ],
+      "filename": "child-avatar-v4-boy-water-diver-v01.glb",
+      "gender": "boy",
+      "id": "boy-water-diver",
+      "multiviewVersion": "v02",
+      "productionApproved": true,
+      "profile": "water-diver",
+      "rejectedActions": {
+        "run": "A ground-running cycle is incompatible with scuba trim.",
+        "swim-forward": "Rejected for runtime: 1.50–1.52 m root travel, a loop jump, arm paddling, and an upward body angle conflict with the reviewed horizontal quiet-hands scuba contract.",
+        "swim-idle": "Rejected for runtime: the source is an approximately 60° upright tread-water pose, not horizontal neutral-buoyancy scuba trim.",
+        "walk": "A ground-walking cycle is incompatible with scuba trim."
+      },
+      "sha256": "1e8f3a3efadd3c4a7a1fb355ab28920bab351419c6eeae509bc65eda41d58806"
+    },
+    {
+      "authoredHeightMeters": 1.15,
+      "clips": [
+        "Idle_Forest",
+        "Walk_Forest",
+        "Run_Forest",
+        "Jump_Land_Stand",
+        "Jump_Land_Walk",
+        "Jump_Land_Run"
+      ],
+      "filename": "child-avatar-v4-girl-land-explorer-v01.glb",
+      "gender": "girl",
+      "id": "girl-land-explorer",
+      "multiviewVersion": "v02",
+      "productionApproved": true,
+      "profile": "land-explorer",
+      "rejectedActions": {},
+      "sha256": "71e602e6ac2cf63d67965df446f5314096882ef2dd83e7aa01f164e84c506aaa"
+    },
+    {
+      "authoredHeightMeters": 1.15,
+      "clips": [
+        "Idle_Snow",
+        "Walk_Snow",
+        "Jump_Land_Stand",
+        "Jump_Land_Walk",
+        "Jump_Land_Run"
+      ],
+      "filename": "child-avatar-v4-girl-snow-expedition-v01.glb",
+      "gender": "girl",
+      "id": "girl-snow-expedition",
+      "multiviewVersion": "v01",
+      "productionApproved": true,
+      "profile": "snow-expedition",
+      "rejectedActions": {
+        "run": "Reserved: the current cold-grassland rail has no fast mode and defaults to a stable walk."
+      },
+      "sha256": "e9eeeaa6894b797ffdbb850b2b63a7bb9ddff58221f52a4a7ae7867c0e929fe7"
+    },
+    {
+      "authoredHeightMeters": 1.15,
+      "clips": [
+        "Glide_Static"
+      ],
+      "filename": "child-avatar-v4-girl-air-wingsuit-v01.glb",
+      "gender": "girl",
+      "id": "girl-air-wingsuit",
+      "multiviewVersion": "v02",
+      "productionApproved": true,
+      "profile": "air-wingsuit",
+      "rejectedActions": {
+        "run": "A ground-running cycle is incompatible with prone wingsuit flight.",
+        "walk": "A ground-walking cycle is incompatible with prone wingsuit flight."
+      },
+      "sha256": "df8454c36e41ad0e94cc7906ba3b13daa7fffc8f5e75a4b0ee4ae9d4f054a1c4"
+    },
+    {
+      "authoredHeightMeters": 1.15,
+      "clips": [
+        "Scuba_Trim_Static"
+      ],
+      "filename": "child-avatar-v4-girl-water-diver-v01.glb",
+      "gender": "girl",
+      "id": "girl-water-diver",
+      "multiviewVersion": "v03",
+      "productionApproved": true,
+      "profile": "water-diver",
+      "rejectedActions": {
+        "run": "A ground-running cycle is incompatible with scuba trim.",
+        "swim-forward": "Rejected for runtime: 1.50–1.52 m root travel, a loop jump, arm paddling, and an upward body angle conflict with the reviewed horizontal quiet-hands scuba contract.",
+        "swim-idle": "Rejected for runtime: the source is an approximately 60° upright tread-water pose, not horizontal neutral-buoyancy scuba trim.",
+        "walk": "A ground-walking cycle is incompatible with scuba trim."
+      },
+      "sha256": "5e381e53823766cf564685d17618d8db658cb1d5c981bc64baa6ebe41a5c00bb"
+    }
+  ],
+  "runtimePolicy": {
+    "cache": "one GLB per selected scene and gender",
+    "clipSharing": "within one package only",
+    "worldMotion": "outer runtime root owns translation and heading",
+    "ocean": "Use the static package plus the reviewed runtime scuba-trim controller; raw Meshy swim clips remain excluded.",
+    "jump": "Land packages include separate Blender-authored Jump_Land_Stand, Jump_Land_Walk, and Jump_Land_Run clips. Each keeps hands in separate shoulder-width lanes, keeps the elbows flexed at roughly 90–120 degrees, and keeps each open palm in a near-vertical inward plane throughout take-off, flight, descent, landing, and recovery. The mirrored left and right hand meshes use opposite local-axis signs for their visible palm faces; authoring resolves them independently and rejects wrist corrections over 120 degrees to prevent glove and wrist skin collapse. The 24-joint source rigs contain whole-hand joints but no finger or thumb joints, so the clips do not fake a fist by folding the wrist. Walk and run entries preserve a modest gait asymmetry while lifting both arms once, keep the same arm slightly higher throughout flight, then lower both flexed arms together without an airborne side exchange. Clips provide entry-specific preparation, flight, landing absorption, and recovery, with joint rotations plus vertical-only planted-contact Hips compression; the terrain-clamped outer runtime root owns the matched parabola and horizontal travel."
+  },
+  "publicDistributionDecision": "approved",
+  "approvedBy": "Leon",
+  "approvedOn": "2026-08-24",
+  "portraits": [
+    {
+      "gender": "boy",
+      "filename": "boy-land-explorer.webp",
+      "sha256": "4b3c81e6733fea6a42f04c9717cc8bbab025948d63d0051d58a74d96ed46b703"
+    },
+    {
+      "gender": "girl",
+      "filename": "girl-land-explorer.webp",
+      "sha256": "8c3e86f6c68feba787d574bc11319d9f20728c5895184ffd66382639954743eb"
+    }
+  ]
+}

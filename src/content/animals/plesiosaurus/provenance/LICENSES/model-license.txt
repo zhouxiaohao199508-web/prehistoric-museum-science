@@ -1,0 +1,13 @@
+Model license record
+====================
+
+Asset: Plesiosaure
+Creator: leo kerjean
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Source URL: https://sketchfab.com/3d-models/plesiosaure-2f59d503e0754c9d9e157a90ed415c38
+Accessed: 2026-07-30
+
+Attribution:
+“Plesiosaure” by leo kerjean, CC BY 4.0; modified for the
+Prehistoric Animal Museum.

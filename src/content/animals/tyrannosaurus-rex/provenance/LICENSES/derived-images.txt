@@ -1,0 +1,27 @@
+Poster and thumbnail derivation record
+======================================
+
+Poster generated: 2026-07-30
+Responsive previews and thumbnail refreshed: 2026-08-09
+
+The transparent poster remains the accepted browser-rendered presentation of
+the repaired rigged Tyrannosaurus rex. It captures the live Idle with repaired
+foreclaws and the controlled two-pulse bite after the jaw, mouth lining, teeth,
+tongue, palate, hip seams, and stationary feet were reviewed.
+
+The six shared responsive model previews and their manifest were regenerated
+after reducing the camera-relative light scale from 1.3 to 0.95 and setting the
+tone-mapping exposure to 1.15 for a softer cloud-filtered presentation. The
+live Hell Creek scene also suppresses the two decorative parallel forest
+sunbeams while retaining the subtle dust and leaf atmosphere.
+
+The collection thumbnail was refreshed after the bright high-horizon habitat
+replacement. The deterministic first animation frame was rendered in the
+1440 x 900 production viewer with interface chrome hidden. Pixel comparison
+against the same frame with the WebGL canvas hidden located the model, and a
+774 x 774 crop at x=537,y=10 was resized to 320 x 320 and encoded as WebP at
+quality 82.
+
+The model attribution and CC BY 4.0 terms in model-license.txt continue to
+apply. The background was generated specifically for this project and is
+recorded separately in background-generation.txt.

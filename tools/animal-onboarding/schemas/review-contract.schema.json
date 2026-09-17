@@ -1,0 +1,365 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://leon-made-this.local/schemas/animal-onboarding/review-contract.schema.json",
+  "title": "Prehistoric animal review contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "contractId",
+    "animalId",
+    "baselineAssetSha256",
+    "purpose",
+    "targetIssues",
+    "invariants",
+    "stateSequences",
+    "evidenceRequirements"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "contractId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "animalId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "baselineAssetSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "purpose": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "targetIssues": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/targetIssue"
+      }
+    },
+    "invariants": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/invariant"
+      }
+    },
+    "stateSequences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/stateSequence"
+      }
+    },
+    "evidenceRequirements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/evidenceRequirement"
+      }
+    }
+  },
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^\\S(?:.*\\S)?$"
+    },
+    "issueCategory": {
+      "enum": [
+        "anatomy",
+        "topology",
+        "rigging",
+        "deformation",
+        "motion",
+        "materials",
+        "transparency",
+        "presentation",
+        "interaction",
+        "performance",
+        "scientific-identity",
+        "child-comfort"
+      ]
+    },
+    "authority": {
+      "enum": [
+        "machine-pass",
+        "agent-visual-pass",
+        "owner-approval"
+      ]
+    },
+    "identifierArray": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/identifier"
+      }
+    },
+    "stringArray": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      }
+    },
+    "targetIssue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "severity",
+        "verification",
+        "currentProblem",
+        "expectedOutcome",
+        "requiredEvidence"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "category": {
+          "$ref": "#/$defs/issueCategory"
+        },
+        "severity": {
+          "enum": [
+            "must-fix",
+            "should-fix"
+          ]
+        },
+        "verification": {
+          "$ref": "#/$defs/authority"
+        },
+        "currentProblem": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "expectedOutcome": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "requiredEvidence": {
+          "$ref": "#/$defs/identifierArray"
+        }
+      }
+    },
+    "invariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "statement",
+        "verification",
+        "baselineEvidence",
+        "candidateEvidence"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "category": {
+          "$ref": "#/$defs/issueCategory"
+        },
+        "statement": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "verification": {
+          "$ref": "#/$defs/authority"
+        },
+        "baselineEvidence": {
+          "$ref": "#/$defs/identifierArray"
+        },
+        "candidateEvidence": {
+          "$ref": "#/$defs/identifierArray"
+        }
+      }
+    },
+    "stateSnapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state",
+        "assertions"
+      ],
+      "properties": {
+        "state": {
+          "$ref": "#/$defs/identifier"
+        },
+        "assertions": {
+          "$ref": "#/$defs/stringArray"
+        }
+      }
+    },
+    "stateAction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "action",
+        "conditions"
+      ],
+      "properties": {
+        "action": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "conditions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
+        }
+      }
+    },
+    "stateSequence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "verification",
+        "given",
+        "when",
+        "then",
+        "requiredEvidence"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "category": {
+          "$ref": "#/$defs/issueCategory"
+        },
+        "verification": {
+          "$ref": "#/$defs/authority"
+        },
+        "given": {
+          "$ref": "#/$defs/stateSnapshot"
+        },
+        "when": {
+          "$ref": "#/$defs/stateAction"
+        },
+        "then": {
+          "$ref": "#/$defs/stateSnapshot"
+        },
+        "requiredEvidence": {
+          "$ref": "#/$defs/identifierArray"
+        }
+      }
+    },
+    "evidenceRequirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "kind",
+        "stage",
+        "description",
+        "requiredFor",
+        "perspectives",
+        "sampleTimesSeconds",
+        "fullCycle"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "category": {
+          "$ref": "#/$defs/issueCategory"
+        },
+        "kind": {
+          "enum": [
+            "source-record",
+            "structure-inventory",
+            "rig-report",
+            "topology-report",
+            "metric",
+            "still",
+            "frame-sequence",
+            "full-loop-video",
+            "runtime-state",
+            "human-review"
+          ]
+        },
+        "stage": {
+          "enum": [
+            "baseline",
+            "candidate",
+            "runtime"
+          ]
+        },
+        "description": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "requiredFor": {
+          "$ref": "#/$defs/authority"
+        },
+        "perspectives": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
+        },
+        "sampleTimesSeconds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "fullCycle": {
+          "type": "boolean"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "full-loop-video"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "properties": {
+              "fullCycle": {
+                "const": true
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "frame-sequence"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "properties": {
+              "sampleTimesSeconds": {
+                "minItems": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

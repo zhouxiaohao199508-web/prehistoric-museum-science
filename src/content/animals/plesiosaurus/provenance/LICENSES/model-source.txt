@@ -1,0 +1,24 @@
+Plesiosaur model source and modifications
+==========================================
+
+Direct source:
+https://sketchfab.com/3d-models/plesiosaure-2f59d503e0754c9d9e157a90ed415c38
+
+Creator: leo kerjean
+License: CC BY 4.0
+Original downloaded GLB: 5,663,868 bytes
+Original SHA-256:
+56fe092e5b769fde877805e484fc4f077ac1e51ab31f6d0b34b0560857e5f94d
+
+The project retained the source hierarchy, applied a desaturated matte aquatic
+material, added restrained eye detail, and authored four morph targets. Those
+targets relax the original permanently up-curved neck, add a visible
+head-to-shoulder neck motion, and move all four flippers independently through
+two complete swimming cycles in one eight-second in-place Idle.
+
+Published runtime GLB: 9,255,684 bytes
+Published SHA-256:
+3273d197a1119a0b9c12acdf53435b166b45ab1c4341709eaebd3dd0cbf9cce6
+
+The model cannot be resolved reliably to a narrower genus or species, so the
+public exhibit deliberately uses the group-level Chinese name “蛇颈龙类”.

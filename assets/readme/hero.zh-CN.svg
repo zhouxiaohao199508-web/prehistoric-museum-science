@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">史前动物博物馆</title>
+  <desc id="desc">一座给孩子和家长一起观察的免费三维史前动物博物馆，右侧以海洋、陆地和天空三扇展窗表现三个展区。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#f4ead2"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe5e4"/>
+      <stop offset="1" stop-color="#4b8f98"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8d9a8"/>
+      <stop offset="1" stop-color="#7d9762"/>
+    </linearGradient>
+    <linearGradient id="air" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9edf0"/>
+      <stop offset="1" stop-color="#e9c98d"/>
+    </linearGradient>
+    <clipPath id="sea-window"><path d="M664 106a70 70 0 0 1 140 0v196H664z"/></clipPath>
+    <clipPath id="land-window"><path d="M824 84a70 70 0 0 1 140 0v218H824z"/></clipPath>
+    <clipPath id="air-window"><path d="M984 106a70 70 0 0 1 140 0v196H984z"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="420" rx="30" fill="url(#paper)"/>
+  <path d="M0 351c162-45 288-30 431 7 111 29 217 31 341-4 153-43 274-35 428 14v52H0z" fill="#dce6c9" opacity=".72"/>
+
+  <g transform="translate(56 46)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
+    <g transform="translate(0 1)">
+      <circle cx="20" cy="20" r="20" fill="#356859"/>
+      <path d="M11 22c8-13 18-12 20-12-1 10-6 19-18 20 4-3 7-6 10-11-5 3-8 7-12 11z" fill="#fffdf7"/>
+      <text x="52" y="27" font-size="20" font-weight="700" fill="#356859" letter-spacing="2">海 · 陆 · 空</text>
+    </g>
+    <text x="0" y="123" font-size="70" font-weight="800" fill="#20352f" letter-spacing="2">史前动物</text>
+    <text x="0" y="202" font-size="70" font-weight="800" fill="#20352f" letter-spacing="2">博物馆</text>
+    <text x="2" y="253" font-size="26" font-weight="600" fill="#356859">和孩子一起，转一转、看一看、听一听</text>
+    <text x="2" y="291" font-size="22" fill="#5c6e68">免费的 3D 史前动物小世界</text>
+
+    <g transform="translate(0 322)" font-size="18" font-weight="700">
+      <g><rect width="126" height="42" rx="21" fill="#356859"/><text x="63" y="27" text-anchor="middle" fill="#fffdf7">18 种动物</text></g>
+      <g transform="translate(138 0)"><rect width="116" height="42" rx="21" fill="#f4b85f"/><text x="58" y="27" text-anchor="middle" fill="#493817">没有闯关</text></g>
+      <g transform="translate(266 0)"><rect width="126" height="42" rx="21" fill="#d9e6d8"/><text x="63" y="27" text-anchor="middle" fill="#29483d">代码开源</text></g>
+    </g>
+  </g>
+
+  <g stroke="#fffdf7" stroke-width="8" stroke-linejoin="round">
+    <path d="M664 106a70 70 0 0 1 140 0v196H664z" fill="url(#sea)"/>
+    <path d="M824 84a70 70 0 0 1 140 0v218H824z" fill="url(#land)"/>
+    <path d="M984 106a70 70 0 0 1 140 0v196H984z" fill="url(#air)"/>
+  </g>
+
+  <g clip-path="url(#sea-window)">
+    <g transform="translate(1473 0) scale(-1 1)">
+      <path d="M676 225c20-22 54-30 85-16 9 4 16 8 24 7l12-5c-3 10-9 17-18 21-23 20-65 23-92 4l-10 7 3-12z" fill="#315d67"/>
+      <path d="M711 239l-10 18 24-13m28-7 15 17-5-22" fill="#315d67" stroke="#315d67" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M710 229c20 9 42 9 63 1" fill="none" stroke="#d7f0eb" stroke-width="4" opacity=".5"/>
+      <circle cx="777" cy="219" r="3" fill="#f4b85f"/>
+    </g>
+    <path d="M664 276c22-16 45-13 66 5 24-21 49-20 74 1v35H664z" fill="#2f6f73" opacity=".5"/>
+  </g>
+
+  <g clip-path="url(#land-window)">
+    <path d="M826 261c34-17 68-16 102 2 12 7 27 8 42 3v47H824z" fill="#55724a" opacity=".72"/>
+    <g transform="translate(1786 0) scale(-1 1)">
+      <path d="M849 220l-16 10 18 6z" fill="#6d5732"/>
+      <ellipse cx="884" cy="226" rx="40" ry="29" fill="#6d5732"/>
+      <path d="M914 218c12-7 23-7 32-3 5 2 7 5 7 8-7 6-16 8-28 7l-12-1z" fill="#6d5732"/>
+      <circle cx="944" cy="220" r="2.5" fill="#f4b85f"/>
+      <path d="M849 204l11-24 12 25 12-30 13 30 13-25 10 31z" fill="#a85f2f"/>
+      <path d="M858 246v36m48-36v36" stroke="#6d5732" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g clip-path="url(#air-window)">
+    <circle cx="1082" cy="144" r="26" fill="#f4b85f" opacity=".72"/>
+    <path d="M1005 235c27-28 54-43 81-44-13 16-22 31-28 47 20-9 42-15 66-19-17 19-39 34-65 45l-20-11-17 18 5-27z" fill="#b75b37"/>
+    <circle cx="1021" cy="238" r="2.5" fill="#f4b85f"/>
+    <path d="M984 280c33-19 70-18 111 3 12 6 25 9 39 10v25H984z" fill="#d2c07e" opacity=".64"/>
+  </g>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="19" font-weight="800" text-anchor="middle" fill="#31523b">
+    <text x="734" y="342">海洋</text>
+    <text x="894" y="342">陆地</text>
+    <text x="1054" y="342">天空</text>
+  </g>
+</svg>

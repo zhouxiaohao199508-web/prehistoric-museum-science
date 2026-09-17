@@ -1,0 +1,30 @@
+Narration generation and review
+
+Package: qwen-tts 0.1.1
+Model: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+Revision: 85e237c12c027371202489a0ec509ded67b5e4b5
+Speaker: Serena
+Language: Chinese
+Seed: 20260726
+Generated: 2026-08-01
+Runtime bytes: 108045
+Runtime SHA-256: f63c87174b47b6d7c3bc3cf41c3deea32006658566aa41215939b2aefb722f06
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-01
+
+Script: 这是古神翼龙，它是生活在早白垩世巴西的会飞爬行动物，不是恐龙。看看它没有牙齿的喙、巨大的头冠和展开的皮膜翅膀。
+
+English narration approval
+
+Locale: en
+Speaker: Serena
+Language: English
+Generated: 2026-08-07
+Runtime bytes: 167565
+Runtime SHA-256: 35e1cedc16daca46f1e46b58503f8d33df301b06195902865f56f857d3cc83d3
+Human listening review: approved
+Public distribution decision: approved
+Approved: Project owner on 2026-08-07
+
+Script: This is Tupandactylus, a flying reptile from Early Cretaceous Brazil. It was not a dinosaur. Look at its toothless beak, enormous head crest and outstretched wings made from skin membranes.

@@ -1,0 +1,30 @@
+Background generation record
+============================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-29; portrait revised 2026-07-31
+Use: project-specific responsive museum backgrounds
+
+Prompt direction:
+Precisely edit the accepted lush fern-and-cycad clearing while preserving its
+layered-paper and soft-gouache style, palette, lighting, vegetation, textures,
+and framing. The landscape keeps its open ground near 55%. For the revised
+portrait, move the distant forest horizon and start of the clearing upward
+about 8–10% of image height, extending level ground behind a Stegosaurus
+whose feet sit around 61% image height. No platform, ridge, ledge, hard seam,
+new focal object, animal, person, text, UI, logo, watermark, shadow, or
+baked-in particles.
+
+The accepted 16:9 and 9:16 images were edited independently rather than
+cropped from one another.
+
+Landscape source PNG:
+- bytes: 2956941
+- SHA-256: 508cfc15ccd3f0620e05f183110bfd70db7139bee60856d269657a8093badbed
+
+Portrait source PNG:
+- bytes: 2815335
+- SHA-256: e042dd7de1e9ad6d2f3703d51640af5d1fbf3bcd1a9ba2b3e55e76f956277a47
+
+The runtime copies were converted to WebP at quality 82 with metadata removed. Public
+release remains subject to the repository owner's final rights review.

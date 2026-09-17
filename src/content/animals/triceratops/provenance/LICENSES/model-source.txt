@@ -1,0 +1,44 @@
+# Sketchfab round-two replacement credits
+
+These files are ignored local-review inputs. They are not approved production
+assets and must not be published merely because they appear in the review
+catalog.
+
+Both selected sources use
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). That license permits
+sharing and adaptation, including commercial use, provided the creator and
+source are credited, the license is linked, and changes are identified.
+
+## Tyrannosaurus rex
+
+- Creator: [Marcel Schanz](https://sketchfab.com/mschanz)
+- Source:
+  [Tyrant King - Tyrannosaurus](https://sketchfab.com/3d-models/tyrant-king-tyrannosaurus-6465a297fa784598adc49f6e0042d449)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as Sketchfab's converted GLB with 1k textures; PBR
+  material data converted where necessary; unused data deduplicated and
+  pruned; GLB repacked; a project-authored 13-bone armature and deterministic
+  skin weights added in Blender; an eight-second in-place Idle authored and
+  validator-checked.
+
+Attribution: “Tyrant King - Tyrannosaurus” by Marcel Schanz, licensed under
+CC BY 4.0; converted by Sketchfab, normalized, rigged, weighted, and given an
+in-place museum Idle by the Prehistoric Animal Museum project.
+
+## Triceratops
+
+- Creator:
+  [wojciechmiedziocha](https://sketchfab.com/wojciechmiedziocha)
+- Source:
+  [Triceratops dinosaur](https://sketchfab.com/3d-models/triceratops-dinosaur-87527079bad44917ab1b98a456b46c7e)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Changes: downloaded as Sketchfab's converted GLB with 1k textures; unused
+  data deduplicated and pruned; GLB repacked; a project-authored 10-bone
+  armature and deterministic skin weights added in Blender; an eight-second
+  in-place head-and-tail Idle authored with the pelvis/tail-root overlap held
+  stationary, normalized to four rotation-only channels, and
+  validator-checked.
+
+Attribution: “Triceratops dinosaur” by wojciechmiedziocha, licensed under
+CC BY 4.0; converted by Sketchfab, normalized, rigged, weighted, and given an
+in-place museum Idle by the Prehistoric Animal Museum project.

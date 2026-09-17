@@ -1,0 +1,21 @@
+Maiasaura background generation record
+=======================================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-30
+Use: project-specific responsive museum backgrounds
+
+The landscape and portrait were generated as separate Late-Cretaceous North
+American floodplain compositions with a high forest horizon and broad,
+continuous central ground. Both prompts explicitly excluded animals, people,
+bones, text, logos, UI, and watermarks. The exact prompts are recorded in the
+typed provenance.
+
+Landscape source PNG: 2,975,870 bytes
+SHA-256: e846a70132530a19e00f3024b447f96d1df9c72f1f05c55bfd9f489c2b3b70ff
+
+Portrait source PNG: 2,711,111 bytes
+SHA-256: 08188ebe1a8fe68e3c667b2ee5344a9d744922b48579ecc991c539d034a664f9
+
+The reviewed sources were converted to metadata-free WebP runtime assets at
+quality 82. The project owner approved public distribution on 2026-07-31.

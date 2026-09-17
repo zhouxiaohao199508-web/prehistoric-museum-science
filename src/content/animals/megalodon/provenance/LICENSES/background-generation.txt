@@ -1,0 +1,21 @@
+Megalodon background generation record
+=======================================
+
+Tool: OpenAI built-in image_gen
+Generated: 2026-07-30
+Use: project-specific responsive museum backgrounds
+
+The landscape and portrait were generated as separate Neogene open
+continental-shelf compositions. Both keep the water surface high, the seabed
+low, and a broad quiet central swimming area. The prompts explicitly excluded
+animals, fish, people, boats, teeth, text, logos, UI, and watermarks. The
+exact prompts are recorded in the typed provenance.
+
+Landscape source PNG: 1,784,569 bytes
+SHA-256: b0275ed9c9990046d6aaa394ea71cec2aacbc36c2b7bb40e3d4dd28d80333664
+
+Portrait source PNG: 1,553,752 bytes
+SHA-256: 47382f7aaa07e1cccfbcfc3a70572b239bba857777e3fa812a355c7bcb0821a2
+
+The reviewed sources were converted to metadata-free WebP runtime assets at
+quality 82. The project owner approved public distribution on 2026-07-31.

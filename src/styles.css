@@ -7851,49 +7851,36 @@ html[data-locale="en"] .collection-card__copy strong {
 .skeleton-viewer-footer a { color: #57421f; display: inline-flex; align-items: center; gap: .3rem; font-weight: 750; }
 @media (max-width: 680px) { .skeleton-viewer-reveal { align-items: stretch; flex-direction: column; } .skeleton-viewer-reveal-button { justify-content: center; } .skeleton-viewer-backdrop { padding: 0; } .skeleton-viewer-drawer { width: 100vw; height: 100dvh; border-radius: 0; } .skeleton-viewer-frame { min-height: 360px; } .skeleton-viewer-process b { display: none; } }
 
-/* Triceratops setup: lightweight pseudo-3D Science Teacher No.4.
-   The figure is built from layered CSS solids so it loads instantly and scales
-   continuously with the classroom height control. */
-.scale-encounter-teacher-3d {
+
+/* Triceratops setup: Science Teacher No.4 supplied digital character. */
+.scale-encounter-teacher-image {
   --teacher-height-scale: 1;
   position: absolute;
   z-index: 11;
-  left: clamp(55px, 13vw, 210px);
-  bottom: clamp(72px, 10vh, 125px);
-  width: 170px;
-  height: 430px;
+  left: clamp(55px, 10vw, 155px);
+  bottom: clamp(55px, 7vh, 90px);
+  width: min(245px, 22vw);
+  height: min(610px, 72vh);
   pointer-events: none;
-  perspective: 900px;
   transform-origin: 50% 100%;
   transform: scale(var(--teacher-height-scale));
+  filter: drop-shadow(0 18px 13px rgb(15 32 24 / 24%));
 }
-.teacher-3d-person { position:absolute; inset:0; transform:rotateY(-8deg); transform-style:preserve-3d; filter:drop-shadow(0 15px 12px rgb(15 32 24 / 25%)); }
-.teacher-3d-shadow { position:absolute; left:18px; bottom:-8px; width:135px; height:28px; border-radius:50%; background:rgb(12 29 22 / 22%); filter:blur(6px); transform:rotateX(70deg); }
-.teacher-3d-head { position:absolute; z-index:8; left:48px; top:8px; width:78px; height:92px; border-radius:46% 46% 48% 48%; background:radial-gradient(circle at 35% 28%,#ffd8bc 0 25%,#e9a984 76%,#c77e60 100%); box-shadow:inset -9px -6px 13px rgb(117 62 43 / 18%),6px 8px 10px rgb(22 35 29 / 16%); }
-.teacher-3d-hair { position:absolute; z-index:3; left:-4px; top:-7px; width:86px; height:43px; border-radius:48% 52% 38% 28%; background:linear-gradient(145deg,#26313a,#080b0e 72%); box-shadow:inset 12px 5px 9px rgb(255 255 255 / 8%); transform:rotate(-5deg); }
-.teacher-3d-ear { position:absolute; top:42px; width:13px; height:22px; border-radius:50%; background:#e6a17f; }
-.teacher-3d-ear--left { left:-7px; } .teacher-3d-ear--right { right:-7px; }
-.teacher-3d-glasses { position:absolute; z-index:5; top:40px; width:28px; height:21px; border:4px solid #202a30; border-radius:8px; background:rgb(215 242 244 / 25%); }
-.teacher-3d-glasses--left { left:8px; } .teacher-3d-glasses--right { right:8px; }
-.teacher-3d-glasses-bridge { position:absolute; z-index:6; left:35px; top:49px; width:9px; height:4px; background:#202a30; }
-.teacher-3d-smile { position:absolute; left:31px; top:69px; width:20px; height:8px; border-bottom:3px solid #9a5448; border-radius:0 0 50% 50%; }
-.teacher-3d-neck { position:absolute; z-index:4; left:69px; top:91px; width:36px; height:29px; border-radius:8px; background:linear-gradient(90deg,#e3a07d,#f5bd98 50%,#ce8769); }
-.teacher-3d-torso { position:absolute; z-index:5; left:36px; top:111px; width:102px; height:126px; border-radius:24px 24px 15px 15px; background:linear-gradient(90deg,#173f75,#2866b1 45%,#153c70); box-shadow:inset -10px 0 13px rgb(0 0 0 / 14%),inset 8px 4px 10px rgb(255 255 255 / 8%); }
-.teacher-3d-collar { position:absolute; top:3px; width:30px; height:26px; background:#e9eef5; clip-path:polygon(0 0,100% 0,55% 100%); }
-.teacher-3d-collar--left { left:20px; transform:rotate(8deg); } .teacher-3d-collar--right { right:20px; transform:scaleX(-1) rotate(8deg); }
-.teacher-3d-tie { position:absolute; z-index:3; left:47px; top:13px; width:12px; height:75px; background:linear-gradient(90deg,#111b29,#263449,#0c1420); clip-path:polygon(50% 0,100% 12%,72% 82%,50% 100%,28% 82%,0 12%); }
-.teacher-3d-pocket { position:absolute; right:12px; top:52px; width:24px; height:26px; border:2px solid rgb(235 246 255 / 80%); border-top:0; border-radius:0 0 6px 6px; }
-.teacher-3d-arm { position:absolute; z-index:3; top:125px; width:31px; height:124px; border-radius:16px; background:linear-gradient(#255c9d 0 38%,#efb18b 39% 100%); box-shadow:inset -6px 0 8px rgb(91 47 34 / 13%); }
-.teacher-3d-arm--left { left:20px; transform:rotate(4deg); } .teacher-3d-arm--right { right:17px; transform:rotate(-4deg); }
-.teacher-3d-hips { position:absolute; z-index:4; left:40px; top:226px; width:95px; height:38px; border-radius:12px; background:linear-gradient(#202b3b,#111923); box-shadow:inset 0 8px #151b22; }
-.teacher-3d-leg { position:absolute; z-index:3; top:250px; width:43px; height:145px; border-radius:9px 9px 15px 15px; background:linear-gradient(90deg,#172333,#27374d 48%,#111a27); }
-.teacher-3d-leg--left { left:42px; transform:rotate(1deg); } .teacher-3d-leg--right { right:38px; transform:rotate(-1deg); }
-.teacher-3d-shoe { position:absolute; z-index:6; bottom:4px; width:56px; height:28px; border-radius:16px 20px 9px 8px; background:linear-gradient(#182029,#050709); box-shadow:inset 0 4px 5px rgb(255 255 255 / 9%); }
-.teacher-3d-shoe--left { left:30px; } .teacher-3d-shoe--right { right:25px; transform:scaleX(-1); }
-
+.scale-encounter-teacher-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+}
 @media (max-width: 900px) {
-  .scale-encounter-teacher-3d { left:22px; bottom:72px; transform:scale(calc(var(--teacher-height-scale) * .72)); }
+  .scale-encounter-teacher-image {
+    left: 24px;
+    width: 190px;
+    height: 470px;
+    transform: scale(calc(var(--teacher-height-scale) * .78));
+  }
 }
 @media (max-width: 680px) {
-  .scale-encounter-teacher-3d { display:none; }
+  .scale-encounter-teacher-image { display: none; }
 }

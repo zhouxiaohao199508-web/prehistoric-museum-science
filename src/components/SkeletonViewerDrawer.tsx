@@ -10,13 +10,23 @@ interface SkeletonViewerDrawerProps {
 
 const TYRANNOSAURUS_SKELETON_IMAGE =
   'https://upload.wikimedia.org/wikipedia/commons/6/68/Stan_T._rex_in_Oslo_white_background.jpg'
+const TRICERATOPS_SKELETON_IMAGE =
+  'https://upload.wikimedia.org/wikipedia/commons/8/8e/Triceratops_Skeleton_Senckenberg_2a_White_Background.jpg'
 
-const SKELETON_SOURCES: Record<string, { title: string; note: string; image: string; alt: string }> = {
+const SKELETON_SOURCES: Record<string, { title: string; note: string; image: string; alt: string; credit: string }> = {
   'tyrannosaurus-rex': {
     title: '霸王龙骨骼 · 化石证据观察',
     note: '观察霸王龙的巨大头骨、脊柱、短小前肢、粗壮后肢和长尾。想一想：仅仅根据这些骨骼证据，你能推测出霸王龙原来的样子吗？',
     image: TYRANNOSAURUS_SKELETON_IMAGE,
     alt: '霸王龙骨骼化石侧面图',
+    credit: '霸王龙骨骼参考图：Stan T. rex skeleton replica，Wikimedia Commons。',
+  },
+  triceratops: {
+    title: '三角龙骨骼 · 化石证据观察',
+    note: '观察三角龙的三只角、巨大颈盾、脊柱、肋骨和粗壮四肢。想一想：仅仅根据这些骨骼证据，你能推测出三角龙原来的样子吗？',
+    image: TRICERATOPS_SKELETON_IMAGE,
+    alt: '三角龙完整骨骼侧面图',
+    credit: '三角龙骨骼参考图：Senckenberg Museum Triceratops skeleton，EvaK / Wikimedia Commons。',
   },
 }
 
@@ -71,13 +81,13 @@ export function SkeletonViewerDrawer({ animalId, animalName, open, onClose }: Sk
         <div className="skeleton-viewer-reveal">
           <div>
             <strong>你猜出它原来的样子了吗？</strong>
-            <p>先根据骨骼说出你的推测，再揭晓古生物学家依据化石证据复原出的霸王龙形象。</p>
+            <p>先根据骨骼说出你的推测，再揭晓古生物学家依据化石证据复原出的{animalName}形象。</p>
           </div>
           <button className="skeleton-viewer-reveal-button" onClick={onClose} type="button"><Eye aria-hidden="true" size={19} /> 揭晓复原形象</button>
         </div>
 
         <footer className="skeleton-viewer-footer">
-          <span>霸王龙骨骼参考图：Stan T. rex skeleton replica，Wikimedia Commons。</span>
+          <span>{source.credit}</span>
         </footer>
       </section>
     </div>

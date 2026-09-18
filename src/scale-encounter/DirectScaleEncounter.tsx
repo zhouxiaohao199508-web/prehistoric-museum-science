@@ -1689,10 +1689,10 @@ export function DirectScaleEncounter({
   const controlsVisible = ['overview', 'arrival', 'eyes'].includes(phase)
   const activeViewLabel = activePerspective === 'child-rear'
     ? locale === 'zh-CN'
-      ? '人物后上方视角'
+      ? '4号科学小老师后上方视角'
       : 'Behind-the-child view'
     : locale === 'zh-CN'
-      ? '小朋友眼睛视角'
+      ? '4号科学小老师眼睛视角'
       : "Child's-eye view"
   const activeDistanceTitle = activePerspective === 'child-rear'
     ? locale === 'zh-CN'
@@ -1981,8 +1981,8 @@ export function DirectScaleEncounter({
               <div className="scale-encounter-height-control">
                 <button
                   aria-label={locale === 'zh-CN' ? '身高减少 5 厘米' : 'Reduce height by 5 centimetres'}
-                  disabled={heightCm <= 90}
-                  onClick={() => setHeightCm((height) => Math.max(90, height - 5))}
+                  disabled={heightCm <= 110}
+                  onClick={() => setHeightCm((height) => Math.max(110, height - 5))}
                   type="button"
                 >
                   <Minus aria-hidden="true" size={20} />
@@ -2003,7 +2003,7 @@ export function DirectScaleEncounter({
                 aria-describedby="scale-encounter-height-help"
                 id="scale-encounter-height"
                 max="175"
-                min="90"
+                min="110"
                 onChange={(event) => setHeightCm(Number(event.currentTarget.value))}
                 step="5"
                 type="range"

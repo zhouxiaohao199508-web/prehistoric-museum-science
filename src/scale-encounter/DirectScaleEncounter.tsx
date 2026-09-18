@@ -1953,6 +1953,41 @@ export function DirectScaleEncounter({
         </div>
       ) : null}
 
+      {phase === 'setup' && animal.id === 'triceratops' ? (
+        <div
+          aria-hidden="true"
+          className="scale-encounter-teacher-3d"
+          style={{ '--teacher-height-scale': String(heightCm / 110) } as React.CSSProperties}
+        >
+          <div className="teacher-3d-shadow" />
+          <div className="teacher-3d-person">
+            <div className="teacher-3d-head">
+              <span className="teacher-3d-hair" />
+              <span className="teacher-3d-ear teacher-3d-ear--left" />
+              <span className="teacher-3d-ear teacher-3d-ear--right" />
+              <span className="teacher-3d-glasses teacher-3d-glasses--left" />
+              <span className="teacher-3d-glasses teacher-3d-glasses--right" />
+              <span className="teacher-3d-glasses-bridge" />
+              <span className="teacher-3d-smile" />
+            </div>
+            <div className="teacher-3d-neck" />
+            <div className="teacher-3d-torso">
+              <span className="teacher-3d-collar teacher-3d-collar--left" />
+              <span className="teacher-3d-collar teacher-3d-collar--right" />
+              <span className="teacher-3d-tie" />
+              <span className="teacher-3d-pocket" />
+            </div>
+            <span className="teacher-3d-arm teacher-3d-arm--left" />
+            <span className="teacher-3d-arm teacher-3d-arm--right" />
+            <div className="teacher-3d-hips" />
+            <span className="teacher-3d-leg teacher-3d-leg--left" />
+            <span className="teacher-3d-leg teacher-3d-leg--right" />
+            <span className="teacher-3d-shoe teacher-3d-shoe--left" />
+            <span className="teacher-3d-shoe teacher-3d-shoe--right" />
+          </div>
+        </div>
+      ) : null}
+
       {phase === 'setup' ? (
         <div className="scale-encounter-setup-layer">
           <div className="scale-encounter-setup-card">

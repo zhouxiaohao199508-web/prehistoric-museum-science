@@ -1953,7 +1953,7 @@ export function DirectScaleEncounter({
         </div>
       ) : null}
 
-      {phase === 'setup' && animal.id === 'triceratops' ? (
+      {phase === 'setup' ? (
         <div
           aria-hidden="true"
           className="scale-encounter-teacher-image"
